@@ -1,4 +1,4 @@
-# Install script for directory: /Users/vatsalbhargava/Documents/CS 211/final_project/.cs211/lib/ge211/example
+# Install script for directory: /Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/.cs211/lib/ge211/example
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,7 +38,7 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug/.cs211/lib/ge211/example/fireworks")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug/.cs211/lib/ge211/example/fireworks")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/fireworks" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/fireworks")
     if(CMAKE_INSTALL_DO_STRIP)

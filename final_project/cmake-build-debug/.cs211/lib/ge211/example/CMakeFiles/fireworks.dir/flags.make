@@ -4,7 +4,7 @@
 # compile CXX with /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -isystem "/Users/vatsalbhargava/Documents/CS 211/final_project/.cs211/lib/ge211/src/../include" -isystem "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug/.cs211/lib/ge211/src/../include" -isystem /usr/local/include/SDL2
+CXX_INCLUDES = -isystem "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/.cs211/lib/ge211/src/../include" -isystem "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug/.cs211/lib/ge211/src/../include" -isystem /usr/local/include/SDL2
 
 CXX_FLAGS = -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -Wall -pedantic-errors -std=c++14
 

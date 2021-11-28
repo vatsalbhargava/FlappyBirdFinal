@@ -57,10 +57,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/vatsalbhargava/Documents/CS 211/final_project"
+CMAKE_SOURCE_DIR = "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug"
+CMAKE_BINARY_DIR = "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,14 +142,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_progress_start "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug/CMakeFiles" "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug/.cs211/lib/ge211/example//CMakeFiles/progress.marks"
-	cd "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 .cs211/lib/ge211/example/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug/CMakeFiles" 0
+	cd "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_progress_start "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug/CMakeFiles" "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug/.cs211/lib/ge211/example//CMakeFiles/progress.marks"
+	cd "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 .cs211/lib/ge211/example/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 .cs211/lib/ge211/example/clean
+	cd "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 .cs211/lib/ge211/example/clean
 .PHONY : clean
 
 # The main clean target
@@ -158,22 +158,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 .cs211/lib/ge211/example/preinstall
+	cd "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 .cs211/lib/ge211/example/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 .cs211/lib/ge211/example/preinstall
+	cd "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 .cs211/lib/ge211/example/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 .cs211/lib/ge211/example/CMakeFiles/fireworks.dir/rule:
-	cd "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 .cs211/lib/ge211/example/CMakeFiles/fireworks.dir/rule
+	cd "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 .cs211/lib/ge211/example/CMakeFiles/fireworks.dir/rule
 .PHONY : .cs211/lib/ge211/example/CMakeFiles/fireworks.dir/rule
 
 # Convenience name for target.
@@ -182,7 +182,7 @@ fireworks: .cs211/lib/ge211/example/CMakeFiles/fireworks.dir/rule
 
 # fast build rule for target.
 fireworks/fast:
-	cd "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f .cs211/lib/ge211/example/CMakeFiles/fireworks.dir/build.make .cs211/lib/ge211/example/CMakeFiles/fireworks.dir/build
+	cd "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f .cs211/lib/ge211/example/CMakeFiles/fireworks.dir/build.make .cs211/lib/ge211/example/CMakeFiles/fireworks.dir/build
 .PHONY : fireworks/fast
 
 fireworks.o: fireworks.cxx.o
@@ -190,7 +190,7 @@ fireworks.o: fireworks.cxx.o
 
 # target to build an object file
 fireworks.cxx.o:
-	cd "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f .cs211/lib/ge211/example/CMakeFiles/fireworks.dir/build.make .cs211/lib/ge211/example/CMakeFiles/fireworks.dir/fireworks.cxx.o
+	cd "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f .cs211/lib/ge211/example/CMakeFiles/fireworks.dir/build.make .cs211/lib/ge211/example/CMakeFiles/fireworks.dir/fireworks.cxx.o
 .PHONY : fireworks.cxx.o
 
 fireworks.i: fireworks.cxx.i
@@ -198,7 +198,7 @@ fireworks.i: fireworks.cxx.i
 
 # target to preprocess a source file
 fireworks.cxx.i:
-	cd "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f .cs211/lib/ge211/example/CMakeFiles/fireworks.dir/build.make .cs211/lib/ge211/example/CMakeFiles/fireworks.dir/fireworks.cxx.i
+	cd "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f .cs211/lib/ge211/example/CMakeFiles/fireworks.dir/build.make .cs211/lib/ge211/example/CMakeFiles/fireworks.dir/fireworks.cxx.i
 .PHONY : fireworks.cxx.i
 
 fireworks.s: fireworks.cxx.s
@@ -206,7 +206,7 @@ fireworks.s: fireworks.cxx.s
 
 # target to generate assembly for a file
 fireworks.cxx.s:
-	cd "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f .cs211/lib/ge211/example/CMakeFiles/fireworks.dir/build.make .cs211/lib/ge211/example/CMakeFiles/fireworks.dir/fireworks.cxx.s
+	cd "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f .cs211/lib/ge211/example/CMakeFiles/fireworks.dir/build.make .cs211/lib/ge211/example/CMakeFiles/fireworks.dir/fireworks.cxx.s
 .PHONY : fireworks.cxx.s
 
 # Help Target
@@ -237,6 +237,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

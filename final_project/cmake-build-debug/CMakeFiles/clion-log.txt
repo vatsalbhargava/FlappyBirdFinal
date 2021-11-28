@@ -1,7 +1,7 @@
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" "/Users/vatsalbhargava/Documents/CS 211/final_project"
--- Using vendored Catch2 library (/Users/vatsalbhargava/Documents/CS 211/final_project/.cs211/lib/catch)
--- Using vendored Ge211 library (/Users/vatsalbhargava/Documents/CS 211/final_project/.cs211/lib/ge211)
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project"
+-- Using vendored Catch2 library (/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/.cs211/lib/catch)
+-- Using vendored Ge211 library (/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/.cs211/lib/ge211)
 -- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
 -- Configuring done
 -- Generating done
--- Build files have been written to: /Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug
+-- Build files have been written to: /Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug

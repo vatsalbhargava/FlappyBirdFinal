@@ -53,10 +53,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/vatsalbhargava/Documents/CS 211/final_project"
+CMAKE_SOURCE_DIR = "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug"
+CMAKE_BINARY_DIR = "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include .cs211/lib/catch/CMakeFiles/catch.dir/depend.make
@@ -68,16 +68,16 @@ include .cs211/lib/catch/CMakeFiles/catch.dir/flags.make
 
 .cs211/lib/catch/CMakeFiles/catch.dir/src/catch.cxx.o: .cs211/lib/catch/CMakeFiles/catch.dir/flags.make
 .cs211/lib/catch/CMakeFiles/catch.dir/src/catch.cxx.o: ../.cs211/lib/catch/src/catch.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object .cs211/lib/catch/CMakeFiles/catch.dir/src/catch.cxx.o"
-	cd "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug/.cs211/lib/catch" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/catch.dir/src/catch.cxx.o -c "/Users/vatsalbhargava/Documents/CS 211/final_project/.cs211/lib/catch/src/catch.cxx"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object .cs211/lib/catch/CMakeFiles/catch.dir/src/catch.cxx.o"
+	cd "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug/.cs211/lib/catch" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/catch.dir/src/catch.cxx.o -c "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/.cs211/lib/catch/src/catch.cxx"
 
 .cs211/lib/catch/CMakeFiles/catch.dir/src/catch.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/catch.dir/src/catch.cxx.i"
-	cd "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug/.cs211/lib/catch" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/vatsalbhargava/Documents/CS 211/final_project/.cs211/lib/catch/src/catch.cxx" > CMakeFiles/catch.dir/src/catch.cxx.i
+	cd "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug/.cs211/lib/catch" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/.cs211/lib/catch/src/catch.cxx" > CMakeFiles/catch.dir/src/catch.cxx.i
 
 .cs211/lib/catch/CMakeFiles/catch.dir/src/catch.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/catch.dir/src/catch.cxx.s"
-	cd "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug/.cs211/lib/catch" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/vatsalbhargava/Documents/CS 211/final_project/.cs211/lib/catch/src/catch.cxx" -o CMakeFiles/catch.dir/src/catch.cxx.s
+	cd "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug/.cs211/lib/catch" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/.cs211/lib/catch/src/catch.cxx" -o CMakeFiles/catch.dir/src/catch.cxx.s
 
 # Object files for target catch
 catch_OBJECTS = \
@@ -89,19 +89,19 @@ catch_EXTERNAL_OBJECTS =
 .cs211/lib/catch/libcatch.a: .cs211/lib/catch/CMakeFiles/catch.dir/src/catch.cxx.o
 .cs211/lib/catch/libcatch.a: .cs211/lib/catch/CMakeFiles/catch.dir/build.make
 .cs211/lib/catch/libcatch.a: .cs211/lib/catch/CMakeFiles/catch.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libcatch.a"
-	cd "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug/.cs211/lib/catch" && $(CMAKE_COMMAND) -P CMakeFiles/catch.dir/cmake_clean_target.cmake
-	cd "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug/.cs211/lib/catch" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/catch.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libcatch.a"
+	cd "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug/.cs211/lib/catch" && $(CMAKE_COMMAND) -P CMakeFiles/catch.dir/cmake_clean_target.cmake
+	cd "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug/.cs211/lib/catch" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/catch.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 .cs211/lib/catch/CMakeFiles/catch.dir/build: .cs211/lib/catch/libcatch.a
 .PHONY : .cs211/lib/catch/CMakeFiles/catch.dir/build
 
 .cs211/lib/catch/CMakeFiles/catch.dir/clean:
-	cd "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug/.cs211/lib/catch" && $(CMAKE_COMMAND) -P CMakeFiles/catch.dir/cmake_clean.cmake
+	cd "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug/.cs211/lib/catch" && $(CMAKE_COMMAND) -P CMakeFiles/catch.dir/cmake_clean.cmake
 .PHONY : .cs211/lib/catch/CMakeFiles/catch.dir/clean
 
 .cs211/lib/catch/CMakeFiles/catch.dir/depend:
-	cd "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/vatsalbhargava/Documents/CS 211/final_project" "/Users/vatsalbhargava/Documents/CS 211/final_project/.cs211/lib/catch" "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug" "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug/.cs211/lib/catch" "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug/.cs211/lib/catch/CMakeFiles/catch.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project" "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/.cs211/lib/catch" "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug" "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug/.cs211/lib/catch" "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug/.cs211/lib/catch/CMakeFiles/catch.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : .cs211/lib/catch/CMakeFiles/catch.dir/depend
 

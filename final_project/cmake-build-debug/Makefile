@@ -57,10 +57,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/vatsalbhargava/Documents/CS 211/final_project"
+CMAKE_SOURCE_DIR = "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug"
+CMAKE_BINARY_DIR = "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -83,6 +83,16 @@ rebuild_cache:
 # Special rule for the target rebuild_cache
 rebuild_cache/fast: rebuild_cache
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+.PHONY : edit_cache/fast
 
 # Special rule for the target install/local
 install/local: preinstall
@@ -130,21 +140,11 @@ install/fast: preinstall/fast
 	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -P cmake_install.cmake
 .PHONY : install/fast
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-.PHONY : edit_cache/fast
-
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug/CMakeFiles" "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug//CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug/CMakeFiles" "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug//CMakeFiles/progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -172,17 +172,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named bird_test
+# Target rules for targets named Flappy
 
 # Build rule for target.
-bird_test: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bird_test
-.PHONY : bird_test
+Flappy: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Flappy
+.PHONY : Flappy
 
 # fast build rule for target.
-bird_test/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bird_test.dir/build.make CMakeFiles/bird_test.dir/build
-.PHONY : bird_test/fast
+Flappy/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Flappy.dir/build.make CMakeFiles/Flappy.dir/build
+.PHONY : Flappy/fast
 
 #=============================================================================
 # Target rules for targets named model_test
@@ -198,17 +198,17 @@ model_test/fast:
 .PHONY : model_test/fast
 
 #=============================================================================
-# Target rules for targets named game
+# Target rules for targets named bird_test
 
 # Build rule for target.
-game: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 game
-.PHONY : game
+bird_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 bird_test
+.PHONY : bird_test
 
 # fast build rule for target.
-game/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/build
-.PHONY : game/fast
+bird_test/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bird_test.dir/build.make CMakeFiles/bird_test.dir/build
+.PHONY : bird_test/fast
 
 #=============================================================================
 # Target rules for targets named catch
@@ -254,9 +254,9 @@ src/bird.o: src/bird.cxx.o
 
 # target to build an object file
 src/bird.cxx.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bird_test.dir/build.make CMakeFiles/bird_test.dir/src/bird.cxx.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Flappy.dir/build.make CMakeFiles/Flappy.dir/src/bird.cxx.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/model_test.dir/build.make CMakeFiles/model_test.dir/src/bird.cxx.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/bird.cxx.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bird_test.dir/build.make CMakeFiles/bird_test.dir/src/bird.cxx.o
 .PHONY : src/bird.cxx.o
 
 src/bird.i: src/bird.cxx.i
@@ -264,9 +264,9 @@ src/bird.i: src/bird.cxx.i
 
 # target to preprocess a source file
 src/bird.cxx.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bird_test.dir/build.make CMakeFiles/bird_test.dir/src/bird.cxx.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Flappy.dir/build.make CMakeFiles/Flappy.dir/src/bird.cxx.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/model_test.dir/build.make CMakeFiles/model_test.dir/src/bird.cxx.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/bird.cxx.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bird_test.dir/build.make CMakeFiles/bird_test.dir/src/bird.cxx.i
 .PHONY : src/bird.cxx.i
 
 src/bird.s: src/bird.cxx.s
@@ -274,9 +274,9 @@ src/bird.s: src/bird.cxx.s
 
 # target to generate assembly for a file
 src/bird.cxx.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bird_test.dir/build.make CMakeFiles/bird_test.dir/src/bird.cxx.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Flappy.dir/build.make CMakeFiles/Flappy.dir/src/bird.cxx.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/model_test.dir/build.make CMakeFiles/model_test.dir/src/bird.cxx.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/bird.cxx.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bird_test.dir/build.make CMakeFiles/bird_test.dir/src/bird.cxx.s
 .PHONY : src/bird.cxx.s
 
 src/controller.o: src/controller.cxx.o
@@ -284,7 +284,7 @@ src/controller.o: src/controller.cxx.o
 
 # target to build an object file
 src/controller.cxx.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/controller.cxx.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Flappy.dir/build.make CMakeFiles/Flappy.dir/src/controller.cxx.o
 .PHONY : src/controller.cxx.o
 
 src/controller.i: src/controller.cxx.i
@@ -292,7 +292,7 @@ src/controller.i: src/controller.cxx.i
 
 # target to preprocess a source file
 src/controller.cxx.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/controller.cxx.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Flappy.dir/build.make CMakeFiles/Flappy.dir/src/controller.cxx.i
 .PHONY : src/controller.cxx.i
 
 src/controller.s: src/controller.cxx.s
@@ -300,7 +300,7 @@ src/controller.s: src/controller.cxx.s
 
 # target to generate assembly for a file
 src/controller.cxx.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/controller.cxx.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Flappy.dir/build.make CMakeFiles/Flappy.dir/src/controller.cxx.s
 .PHONY : src/controller.cxx.s
 
 src/main.o: src/main.cxx.o
@@ -308,7 +308,7 @@ src/main.o: src/main.cxx.o
 
 # target to build an object file
 src/main.cxx.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/main.cxx.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Flappy.dir/build.make CMakeFiles/Flappy.dir/src/main.cxx.o
 .PHONY : src/main.cxx.o
 
 src/main.i: src/main.cxx.i
@@ -316,7 +316,7 @@ src/main.i: src/main.cxx.i
 
 # target to preprocess a source file
 src/main.cxx.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/main.cxx.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Flappy.dir/build.make CMakeFiles/Flappy.dir/src/main.cxx.i
 .PHONY : src/main.cxx.i
 
 src/main.s: src/main.cxx.s
@@ -324,7 +324,7 @@ src/main.s: src/main.cxx.s
 
 # target to generate assembly for a file
 src/main.cxx.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/main.cxx.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Flappy.dir/build.make CMakeFiles/Flappy.dir/src/main.cxx.s
 .PHONY : src/main.cxx.s
 
 src/model.o: src/model.cxx.o
@@ -332,9 +332,9 @@ src/model.o: src/model.cxx.o
 
 # target to build an object file
 src/model.cxx.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bird_test.dir/build.make CMakeFiles/bird_test.dir/src/model.cxx.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Flappy.dir/build.make CMakeFiles/Flappy.dir/src/model.cxx.o
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/model_test.dir/build.make CMakeFiles/model_test.dir/src/model.cxx.o
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/model.cxx.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bird_test.dir/build.make CMakeFiles/bird_test.dir/src/model.cxx.o
 .PHONY : src/model.cxx.o
 
 src/model.i: src/model.cxx.i
@@ -342,9 +342,9 @@ src/model.i: src/model.cxx.i
 
 # target to preprocess a source file
 src/model.cxx.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bird_test.dir/build.make CMakeFiles/bird_test.dir/src/model.cxx.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Flappy.dir/build.make CMakeFiles/Flappy.dir/src/model.cxx.i
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/model_test.dir/build.make CMakeFiles/model_test.dir/src/model.cxx.i
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/model.cxx.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bird_test.dir/build.make CMakeFiles/bird_test.dir/src/model.cxx.i
 .PHONY : src/model.cxx.i
 
 src/model.s: src/model.cxx.s
@@ -352,9 +352,9 @@ src/model.s: src/model.cxx.s
 
 # target to generate assembly for a file
 src/model.cxx.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/bird_test.dir/build.make CMakeFiles/bird_test.dir/src/model.cxx.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Flappy.dir/build.make CMakeFiles/Flappy.dir/src/model.cxx.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/model_test.dir/build.make CMakeFiles/model_test.dir/src/model.cxx.s
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/model.cxx.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/bird_test.dir/build.make CMakeFiles/bird_test.dir/src/model.cxx.s
 .PHONY : src/model.cxx.s
 
 src/view.o: src/view.cxx.o
@@ -362,7 +362,7 @@ src/view.o: src/view.cxx.o
 
 # target to build an object file
 src/view.cxx.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/view.cxx.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Flappy.dir/build.make CMakeFiles/Flappy.dir/src/view.cxx.o
 .PHONY : src/view.cxx.o
 
 src/view.i: src/view.cxx.i
@@ -370,7 +370,7 @@ src/view.i: src/view.cxx.i
 
 # target to preprocess a source file
 src/view.cxx.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/view.cxx.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Flappy.dir/build.make CMakeFiles/Flappy.dir/src/view.cxx.i
 .PHONY : src/view.cxx.i
 
 src/view.s: src/view.cxx.s
@@ -378,7 +378,7 @@ src/view.s: src/view.cxx.s
 
 # target to generate assembly for a file
 src/view.cxx.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/view.cxx.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Flappy.dir/build.make CMakeFiles/Flappy.dir/src/view.cxx.s
 .PHONY : src/view.cxx.s
 
 test/bird_test.o: test/bird_test.cxx.o
@@ -442,10 +442,10 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... test"
+	@echo "... Flappy"
 	@echo "... bird_test"
 	@echo "... catch"
 	@echo "... fireworks"
-	@echo "... game"
 	@echo "... ge211"
 	@echo "... model_test"
 	@echo "... src/bird.o"

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/Users/vatsalbhargava/Documents/CS 211/final_project/.cs211/lib/catch/include/catch.hxx
+/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/.cs211/lib/catch/include/catch.hxx
 chrono
 -
 iosfwd
@@ -372,9 +372,9 @@ vector
 cstring
 -
 
-/Users/vatsalbhargava/Documents/CS 211/final_project/.cs211/lib/catch/src/catch.cxx
+/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/.cs211/lib/catch/src/catch.cxx
 ../include/catch.hxx
-/Users/vatsalbhargava/Documents/CS 211/final_project/.cs211/lib/catch/include/catch.hxx
+/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/.cs211/lib/catch/include/catch.hxx
 cassert
 -
 iterator

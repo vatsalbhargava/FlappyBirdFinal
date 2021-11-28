@@ -1,4 +1,4 @@
-# Install script for directory: /Users/vatsalbhargava/Documents/CS 211/final_project/.cs211/lib/ge211/src
+# Install script for directory: /Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/.cs211/lib/ge211/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

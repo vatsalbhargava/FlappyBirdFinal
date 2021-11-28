@@ -266,13 +266,13 @@ SDL_video.h
 string
 -
 
-/Users/vatsalbhargava/Documents/CS 211/final_project/.cs211/lib/ge211/src/ge211_audio.cxx
+/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/.cs211/lib/ge211/src/ge211_audio.cxx
 ge211_audio.hxx
-/Users/vatsalbhargava/Documents/CS 211/final_project/.cs211/lib/ge211/src/ge211_audio.hxx
+/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/.cs211/lib/ge211/src/ge211_audio.hxx
 ge211_resource.hxx
-/Users/vatsalbhargava/Documents/CS 211/final_project/.cs211/lib/ge211/src/ge211_resource.hxx
+/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/.cs211/lib/ge211/src/ge211_resource.hxx
 ge211_session.hxx
-/Users/vatsalbhargava/Documents/CS 211/final_project/.cs211/lib/ge211/src/ge211_session.hxx
+/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/.cs211/lib/ge211/src/ge211_session.hxx
 SDL.h
 -
 SDL_mixer.h
@@ -282,19 +282,19 @@ algorithm
 cassert
 -
 
-/Users/vatsalbhargava/Documents/CS 211/final_project/.cs211/lib/ge211/src/ge211_base.cxx
+/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/.cs211/lib/ge211/src/ge211_base.cxx
 ge211_base.hxx
-/Users/vatsalbhargava/Documents/CS 211/final_project/.cs211/lib/ge211/src/ge211_base.hxx
+/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/.cs211/lib/ge211/src/ge211_base.hxx
 ge211_engine.hxx
-/Users/vatsalbhargava/Documents/CS 211/final_project/.cs211/lib/ge211/src/ge211_engine.hxx
+/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/.cs211/lib/ge211/src/ge211_engine.hxx
 ge211_error.hxx
-/Users/vatsalbhargava/Documents/CS 211/final_project/.cs211/lib/ge211/src/ge211_error.hxx
+/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/.cs211/lib/ge211/src/ge211_error.hxx
 SDL.h
 -
 
-/Users/vatsalbhargava/Documents/CS 211/final_project/.cs211/lib/ge211/src/ge211_color.cxx
+/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/.cs211/lib/ge211/src/ge211_color.cxx
 ge211_color.hxx
-/Users/vatsalbhargava/Documents/CS 211/final_project/.cs211/lib/ge211/src/ge211_color.hxx
+/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/.cs211/lib/ge211/src/ge211_color.hxx
 algorithm
 -
 cmath
@@ -302,27 +302,27 @@ cmath
 tuple
 -
 
-/Users/vatsalbhargava/Documents/CS 211/final_project/.cs211/lib/ge211/src/ge211_engine.cxx
+/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/.cs211/lib/ge211/src/ge211_engine.cxx
 ge211_engine.hxx
-/Users/vatsalbhargava/Documents/CS 211/final_project/.cs211/lib/ge211/src/ge211_engine.hxx
+/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/.cs211/lib/ge211/src/ge211_engine.hxx
 ge211_base.hxx
-/Users/vatsalbhargava/Documents/CS 211/final_project/.cs211/lib/ge211/src/ge211_base.hxx
+/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/.cs211/lib/ge211/src/ge211_base.hxx
 ge211_render.hxx
-/Users/vatsalbhargava/Documents/CS 211/final_project/.cs211/lib/ge211/src/ge211_render.hxx
+/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/.cs211/lib/ge211/src/ge211_render.hxx
 ge211_sprites.hxx
-/Users/vatsalbhargava/Documents/CS 211/final_project/.cs211/lib/ge211/src/ge211_sprites.hxx
+/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/.cs211/lib/ge211/src/ge211_sprites.hxx
 SDL.h
 -
 utf8.h
-/Users/vatsalbhargava/Documents/CS 211/final_project/.cs211/lib/ge211/src/utf8.h
+/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/.cs211/lib/ge211/src/utf8.h
 algorithm
 -
 cstring
 -
 
-/Users/vatsalbhargava/Documents/CS 211/final_project/.cs211/lib/ge211/src/ge211_error.cxx
+/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/.cs211/lib/ge211/src/ge211_error.cxx
 ge211_error.hxx
-/Users/vatsalbhargava/Documents/CS 211/final_project/.cs211/lib/ge211/src/ge211_error.hxx
+/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/.cs211/lib/ge211/src/ge211_error.hxx
 SDL.h
 -
 SDL_image.h
@@ -332,47 +332,47 @@ SDL_ttf.h
 iostream
 -
 
-/Users/vatsalbhargava/Documents/CS 211/final_project/.cs211/lib/ge211/src/ge211_event.cxx
+/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/.cs211/lib/ge211/src/ge211_event.cxx
 ge211_event.hxx
-/Users/vatsalbhargava/Documents/CS 211/final_project/.cs211/lib/ge211/src/ge211_event.hxx
+/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/.cs211/lib/ge211/src/ge211_event.hxx
 SDL_events.h
 -
 utf8.h
-/Users/vatsalbhargava/Documents/CS 211/final_project/.cs211/lib/ge211/src/utf8.h
+/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/.cs211/lib/ge211/src/utf8.h
 cctype
 -
 
-/Users/vatsalbhargava/Documents/CS 211/final_project/.cs211/lib/ge211/src/ge211_geometry.cxx
+/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/.cs211/lib/ge211/src/ge211_geometry.cxx
 ge211_geometry.hxx
-/Users/vatsalbhargava/Documents/CS 211/final_project/.cs211/lib/ge211/src/ge211_geometry.hxx
+/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/.cs211/lib/ge211/src/ge211_geometry.hxx
 cmath
 -
 
-/Users/vatsalbhargava/Documents/CS 211/final_project/.cs211/lib/ge211/src/ge211_random.cxx
+/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/.cs211/lib/ge211/src/ge211_random.cxx
 ge211_random.hxx
-/Users/vatsalbhargava/Documents/CS 211/final_project/.cs211/lib/ge211/src/ge211_random.hxx
+/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/.cs211/lib/ge211/src/ge211_random.hxx
 chrono
 -
 
-/Users/vatsalbhargava/Documents/CS 211/final_project/.cs211/lib/ge211/src/ge211_render.cxx
+/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/.cs211/lib/ge211/src/ge211_render.cxx
 ge211_render.hxx
-/Users/vatsalbhargava/Documents/CS 211/final_project/.cs211/lib/ge211/src/ge211_render.hxx
+/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/.cs211/lib/ge211/src/ge211_render.hxx
 ge211_error.hxx
-/Users/vatsalbhargava/Documents/CS 211/final_project/.cs211/lib/ge211/src/ge211_error.hxx
+/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/.cs211/lib/ge211/src/ge211_error.hxx
 ge211_util.hxx
-/Users/vatsalbhargava/Documents/CS 211/final_project/.cs211/lib/ge211/src/ge211_util.hxx
+/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/.cs211/lib/ge211/src/ge211_util.hxx
 SDL.h
 -
 utility
 -
 
-/Users/vatsalbhargava/Documents/CS 211/final_project/.cs211/lib/ge211/src/ge211_resource.cxx
+/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/.cs211/lib/ge211/src/ge211_resource.cxx
 ge211_resource.hxx
-/Users/vatsalbhargava/Documents/CS 211/final_project/.cs211/lib/ge211/src/ge211_resource.hxx
+/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/.cs211/lib/ge211/src/ge211_resource.hxx
 ge211_error.hxx
-/Users/vatsalbhargava/Documents/CS 211/final_project/.cs211/lib/ge211/src/ge211_error.hxx
+/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/.cs211/lib/ge211/src/ge211_error.hxx
 ge211_session.hxx
-/Users/vatsalbhargava/Documents/CS 211/final_project/.cs211/lib/ge211/src/ge211_session.hxx
+/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/.cs211/lib/ge211/src/ge211_session.hxx
 SDL.h
 -
 SDL_ttf.h
@@ -382,13 +382,13 @@ ios
 string
 -
 
-/Users/vatsalbhargava/Documents/CS 211/final_project/.cs211/lib/ge211/src/ge211_session.cxx
+/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/.cs211/lib/ge211/src/ge211_session.cxx
 ge211_session.hxx
-/Users/vatsalbhargava/Documents/CS 211/final_project/.cs211/lib/ge211/src/ge211_session.hxx
+/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/.cs211/lib/ge211/src/ge211_session.hxx
 ge211_error.hxx
-/Users/vatsalbhargava/Documents/CS 211/final_project/.cs211/lib/ge211/src/ge211_error.hxx
+/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/.cs211/lib/ge211/src/ge211_error.hxx
 ge211_util.hxx
-/Users/vatsalbhargava/Documents/CS 211/final_project/.cs211/lib/ge211/src/ge211_util.hxx
+/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/.cs211/lib/ge211/src/ge211_util.hxx
 SDL.h
 -
 SDL_image.h
@@ -398,11 +398,11 @@ SDL_ttf.h
 clocale
 -
 
-/Users/vatsalbhargava/Documents/CS 211/final_project/.cs211/lib/ge211/src/ge211_sprites.cxx
+/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/.cs211/lib/ge211/src/ge211_sprites.cxx
 ge211_sprites.hxx
-/Users/vatsalbhargava/Documents/CS 211/final_project/.cs211/lib/ge211/src/ge211_sprites.hxx
+/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/.cs211/lib/ge211/src/ge211_sprites.hxx
 ge211_error.hxx
-/Users/vatsalbhargava/Documents/CS 211/final_project/.cs211/lib/ge211/src/ge211_error.hxx
+/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/.cs211/lib/ge211/src/ge211_error.hxx
 SDL.h
 -
 SDL_image.h
@@ -412,11 +412,11 @@ SDL_ttf.h
 cmath
 -
 
-/Users/vatsalbhargava/Documents/CS 211/final_project/.cs211/lib/ge211/src/ge211_window.cxx
+/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/.cs211/lib/ge211/src/ge211_window.cxx
 ge211_window.hxx
-/Users/vatsalbhargava/Documents/CS 211/final_project/.cs211/lib/ge211/src/ge211_window.hxx
+/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/.cs211/lib/ge211/src/ge211_window.hxx
 ge211_error.hxx
-/Users/vatsalbhargava/Documents/CS 211/final_project/.cs211/lib/ge211/src/ge211_error.hxx
+/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/.cs211/lib/ge211/src/ge211_error.hxx
 SDL.h
 -
 

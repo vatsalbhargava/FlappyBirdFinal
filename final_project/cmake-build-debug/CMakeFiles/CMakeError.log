@@ -10,31 +10,31 @@ clang: error: linker command failed with exit code 1 (use -v to see invocation)
 
 
 Performing C++ SOURCE FILE Test CXXFLAG_WCAST_ALIGN_STRICT_OKAY failed with the following output:
-Change Dir: /Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_79a6e/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_79a6e.dir/build.make CMakeFiles/cmTC_79a6e.dir/build
-Building CXX object CMakeFiles/cmTC_79a6e.dir/src.cxx.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DCXXFLAG_WCAST_ALIGN_STRICT_OKAY  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk   -Wcast-align=strict -MD -MT CMakeFiles/cmTC_79a6e.dir/src.cxx.o -MF CMakeFiles/cmTC_79a6e.dir/src.cxx.o.d -o CMakeFiles/cmTC_79a6e.dir/src.cxx.o -c "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx"
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_abc76/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_abc76.dir/build.make CMakeFiles/cmTC_abc76.dir/build
+Building CXX object CMakeFiles/cmTC_abc76.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DCXXFLAG_WCAST_ALIGN_STRICT_OKAY  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk   -Wcast-align=strict -MD -MT CMakeFiles/cmTC_abc76.dir/src.cxx.o -MF CMakeFiles/cmTC_abc76.dir/src.cxx.o.d -o CMakeFiles/cmTC_abc76.dir/src.cxx.o -c "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx"
 warning: unknown warning option '-Wcast-align=strict'; did you mean '-Wcast-align'? [-Wunknown-warning-option]
 1 warning generated.
-Linking CXX executable cmTC_79a6e
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_79a6e.dir/link.txt --verbose=1
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_79a6e.dir/src.cxx.o -o cmTC_79a6e 
+Linking CXX executable cmTC_abc76
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_abc76.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_abc76.dir/src.cxx.o -o cmTC_abc76 
 
 
 Source file was:
 int main() { return 0; }
 Performing C++ SOURCE FILE Test CXXFLAG_WERROR_BOOL_COMPARE_OKAY failed with the following output:
-Change Dir: /Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make -f Makefile cmTC_84b85/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_84b85.dir/build.make CMakeFiles/cmTC_84b85.dir/build
-Building CXX object CMakeFiles/cmTC_84b85.dir/src.cxx.o
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DCXXFLAG_WERROR_BOOL_COMPARE_OKAY  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk   -Werror=bool-compare -MD -MT CMakeFiles/cmTC_84b85.dir/src.cxx.o -MF CMakeFiles/cmTC_84b85.dir/src.cxx.o.d -o CMakeFiles/cmTC_84b85.dir/src.cxx.o -c "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx"
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_2c8d0/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_2c8d0.dir/build.make CMakeFiles/cmTC_2c8d0.dir/build
+Building CXX object CMakeFiles/cmTC_2c8d0.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DCXXFLAG_WERROR_BOOL_COMPARE_OKAY  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk   -Werror=bool-compare -MD -MT CMakeFiles/cmTC_2c8d0.dir/src.cxx.o -MF CMakeFiles/cmTC_2c8d0.dir/src.cxx.o.d -o CMakeFiles/cmTC_2c8d0.dir/src.cxx.o -c "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug/CMakeFiles/CMakeTmp/src.cxx"
 warning: unknown warning option '-Werror=bool-compare' [-Wunknown-warning-option]
 1 warning generated.
-Linking CXX executable cmTC_84b85
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_84b85.dir/link.txt --verbose=1
-/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_84b85.dir/src.cxx.o -o cmTC_84b85 
+Linking CXX executable cmTC_2c8d0
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2c8d0.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.0.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_2c8d0.dir/src.cxx.o -o cmTC_2c8d0 
 
 
 Source file was:

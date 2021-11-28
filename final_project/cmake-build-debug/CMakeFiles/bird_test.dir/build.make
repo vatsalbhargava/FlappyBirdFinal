@@ -53,10 +53,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/vatsalbhargava/Documents/CS 211/final_project"
+CMAKE_SOURCE_DIR = "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug"
+CMAKE_BINARY_DIR = "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/bird_test.dir/depend.make
@@ -68,42 +68,42 @@ include CMakeFiles/bird_test.dir/flags.make
 
 CMakeFiles/bird_test.dir/src/bird.cxx.o: CMakeFiles/bird_test.dir/flags.make
 CMakeFiles/bird_test.dir/src/bird.cxx.o: ../src/bird.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/bird_test.dir/src/bird.cxx.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bird_test.dir/src/bird.cxx.o -c "/Users/vatsalbhargava/Documents/CS 211/final_project/src/bird.cxx"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/bird_test.dir/src/bird.cxx.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bird_test.dir/src/bird.cxx.o -c "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/src/bird.cxx"
 
 CMakeFiles/bird_test.dir/src/bird.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bird_test.dir/src/bird.cxx.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/vatsalbhargava/Documents/CS 211/final_project/src/bird.cxx" > CMakeFiles/bird_test.dir/src/bird.cxx.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/src/bird.cxx" > CMakeFiles/bird_test.dir/src/bird.cxx.i
 
 CMakeFiles/bird_test.dir/src/bird.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bird_test.dir/src/bird.cxx.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/vatsalbhargava/Documents/CS 211/final_project/src/bird.cxx" -o CMakeFiles/bird_test.dir/src/bird.cxx.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/src/bird.cxx" -o CMakeFiles/bird_test.dir/src/bird.cxx.s
 
 CMakeFiles/bird_test.dir/src/model.cxx.o: CMakeFiles/bird_test.dir/flags.make
 CMakeFiles/bird_test.dir/src/model.cxx.o: ../src/model.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/bird_test.dir/src/model.cxx.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bird_test.dir/src/model.cxx.o -c "/Users/vatsalbhargava/Documents/CS 211/final_project/src/model.cxx"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/bird_test.dir/src/model.cxx.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bird_test.dir/src/model.cxx.o -c "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/src/model.cxx"
 
 CMakeFiles/bird_test.dir/src/model.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bird_test.dir/src/model.cxx.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/vatsalbhargava/Documents/CS 211/final_project/src/model.cxx" > CMakeFiles/bird_test.dir/src/model.cxx.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/src/model.cxx" > CMakeFiles/bird_test.dir/src/model.cxx.i
 
 CMakeFiles/bird_test.dir/src/model.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bird_test.dir/src/model.cxx.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/vatsalbhargava/Documents/CS 211/final_project/src/model.cxx" -o CMakeFiles/bird_test.dir/src/model.cxx.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/src/model.cxx" -o CMakeFiles/bird_test.dir/src/model.cxx.s
 
 CMakeFiles/bird_test.dir/test/bird_test.cxx.o: CMakeFiles/bird_test.dir/flags.make
 CMakeFiles/bird_test.dir/test/bird_test.cxx.o: ../test/bird_test.cxx
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/bird_test.dir/test/bird_test.cxx.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bird_test.dir/test/bird_test.cxx.o -c "/Users/vatsalbhargava/Documents/CS 211/final_project/test/bird_test.cxx"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/bird_test.dir/test/bird_test.cxx.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/bird_test.dir/test/bird_test.cxx.o -c "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/test/bird_test.cxx"
 
 CMakeFiles/bird_test.dir/test/bird_test.cxx.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/bird_test.dir/test/bird_test.cxx.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/vatsalbhargava/Documents/CS 211/final_project/test/bird_test.cxx" > CMakeFiles/bird_test.dir/test/bird_test.cxx.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/test/bird_test.cxx" > CMakeFiles/bird_test.dir/test/bird_test.cxx.i
 
 CMakeFiles/bird_test.dir/test/bird_test.cxx.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/bird_test.dir/test/bird_test.cxx.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/vatsalbhargava/Documents/CS 211/final_project/test/bird_test.cxx" -o CMakeFiles/bird_test.dir/test/bird_test.cxx.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/test/bird_test.cxx" -o CMakeFiles/bird_test.dir/test/bird_test.cxx.s
 
 # Object files for target bird_test
 bird_test_OBJECTS = \
@@ -119,8 +119,13 @@ bird_test: CMakeFiles/bird_test.dir/src/model.cxx.o
 bird_test: CMakeFiles/bird_test.dir/test/bird_test.cxx.o
 bird_test: CMakeFiles/bird_test.dir/build.make
 bird_test: .cs211/lib/catch/libcatch.a
+bird_test: .cs211/lib/ge211/src/libge211.a
+bird_test: /usr/local/lib/libSDL2.dylib
+bird_test: /usr/local/lib/libSDL2_image.dylib
+bird_test: /usr/local/lib/libSDL2_mixer.dylib
+bird_test: /usr/local/lib/libSDL2_ttf.dylib
 bird_test: CMakeFiles/bird_test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable bird_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable bird_test"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/bird_test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -132,6 +137,6 @@ CMakeFiles/bird_test.dir/clean:
 .PHONY : CMakeFiles/bird_test.dir/clean
 
 CMakeFiles/bird_test.dir/depend:
-	cd "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/vatsalbhargava/Documents/CS 211/final_project" "/Users/vatsalbhargava/Documents/CS 211/final_project" "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug" "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug" "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug/CMakeFiles/bird_test.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project" "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project" "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug" "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug" "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug/CMakeFiles/bird_test.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/bird_test.dir/depend
 

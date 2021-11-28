@@ -57,10 +57,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/vatsalbhargava/Documents/CS 211/final_project"
+CMAKE_SOURCE_DIR = "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug"
+CMAKE_BINARY_DIR = "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,14 +142,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_progress_start "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug/CMakeFiles" "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug/.cs211/lib/ge211/3rdparty/utf8-cpp//CMakeFiles/progress.marks"
-	cd "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 .cs211/lib/ge211/3rdparty/utf8-cpp/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug/CMakeFiles" 0
+	cd "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_progress_start "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug/CMakeFiles" "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug/.cs211/lib/ge211/3rdparty/utf8-cpp//CMakeFiles/progress.marks"
+	cd "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 .cs211/lib/ge211/3rdparty/utf8-cpp/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 .cs211/lib/ge211/3rdparty/utf8-cpp/clean
+	cd "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 .cs211/lib/ge211/3rdparty/utf8-cpp/clean
 .PHONY : clean
 
 # The main clean target
@@ -158,17 +158,17 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 .cs211/lib/ge211/3rdparty/utf8-cpp/preinstall
+	cd "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 .cs211/lib/ge211/3rdparty/utf8-cpp/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 .cs211/lib/ge211/3rdparty/utf8-cpp/preinstall
+	cd "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 .cs211/lib/ge211/3rdparty/utf8-cpp/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Help Target
@@ -195,6 +195,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

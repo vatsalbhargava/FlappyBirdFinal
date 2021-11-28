@@ -27,6 +27,6 @@ target_link_libraries(model_test ge211)
 add_test_program(bird_test
         ${MODEL_SRC}
         test/bird_test.cxx)
-target_link_libraries(model_test ge211)
+target_link_libraries(bird_test ge211)
 
 # vim: ft=cmake

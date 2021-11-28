@@ -57,10 +57,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/vatsalbhargava/Documents/CS 211/final_project"
+CMAKE_SOURCE_DIR = "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug"
+CMAKE_BINARY_DIR = "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,14 +142,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_progress_start "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug/CMakeFiles" "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug/.cs211/lib/ge211/src//CMakeFiles/progress.marks"
-	cd "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 .cs211/lib/ge211/src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug/CMakeFiles" 0
+	cd "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug" && $(CMAKE_COMMAND) -E cmake_progress_start "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug/CMakeFiles" "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug/.cs211/lib/ge211/src//CMakeFiles/progress.marks"
+	cd "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 .cs211/lib/ge211/src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 .cs211/lib/ge211/src/clean
+	cd "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 .cs211/lib/ge211/src/clean
 .PHONY : clean
 
 # The main clean target
@@ -158,22 +158,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 .cs211/lib/ge211/src/preinstall
+	cd "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 .cs211/lib/ge211/src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 .cs211/lib/ge211/src/preinstall
+	cd "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 .cs211/lib/ge211/src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 .cs211/lib/ge211/src/CMakeFiles/ge211.dir/rule:
-	cd "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 .cs211/lib/ge211/src/CMakeFiles/ge211.dir/rule
+	cd "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 .cs211/lib/ge211/src/CMakeFiles/ge211.dir/rule
 .PHONY : .cs211/lib/ge211/src/CMakeFiles/ge211.dir/rule
 
 # Convenience name for target.
@@ -182,7 +182,7 @@ ge211: .cs211/lib/ge211/src/CMakeFiles/ge211.dir/rule
 
 # fast build rule for target.
 ge211/fast:
-	cd "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f .cs211/lib/ge211/src/CMakeFiles/ge211.dir/build.make .cs211/lib/ge211/src/CMakeFiles/ge211.dir/build
+	cd "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f .cs211/lib/ge211/src/CMakeFiles/ge211.dir/build.make .cs211/lib/ge211/src/CMakeFiles/ge211.dir/build
 .PHONY : ge211/fast
 
 ge211_audio.o: ge211_audio.cxx.o
@@ -190,7 +190,7 @@ ge211_audio.o: ge211_audio.cxx.o
 
 # target to build an object file
 ge211_audio.cxx.o:
-	cd "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f .cs211/lib/ge211/src/CMakeFiles/ge211.dir/build.make .cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_audio.cxx.o
+	cd "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f .cs211/lib/ge211/src/CMakeFiles/ge211.dir/build.make .cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_audio.cxx.o
 .PHONY : ge211_audio.cxx.o
 
 ge211_audio.i: ge211_audio.cxx.i
@@ -198,7 +198,7 @@ ge211_audio.i: ge211_audio.cxx.i
 
 # target to preprocess a source file
 ge211_audio.cxx.i:
-	cd "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f .cs211/lib/ge211/src/CMakeFiles/ge211.dir/build.make .cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_audio.cxx.i
+	cd "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f .cs211/lib/ge211/src/CMakeFiles/ge211.dir/build.make .cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_audio.cxx.i
 .PHONY : ge211_audio.cxx.i
 
 ge211_audio.s: ge211_audio.cxx.s
@@ -206,7 +206,7 @@ ge211_audio.s: ge211_audio.cxx.s
 
 # target to generate assembly for a file
 ge211_audio.cxx.s:
-	cd "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f .cs211/lib/ge211/src/CMakeFiles/ge211.dir/build.make .cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_audio.cxx.s
+	cd "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f .cs211/lib/ge211/src/CMakeFiles/ge211.dir/build.make .cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_audio.cxx.s
 .PHONY : ge211_audio.cxx.s
 
 ge211_base.o: ge211_base.cxx.o
@@ -214,7 +214,7 @@ ge211_base.o: ge211_base.cxx.o
 
 # target to build an object file
 ge211_base.cxx.o:
-	cd "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f .cs211/lib/ge211/src/CMakeFiles/ge211.dir/build.make .cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_base.cxx.o
+	cd "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f .cs211/lib/ge211/src/CMakeFiles/ge211.dir/build.make .cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_base.cxx.o
 .PHONY : ge211_base.cxx.o
 
 ge211_base.i: ge211_base.cxx.i
@@ -222,7 +222,7 @@ ge211_base.i: ge211_base.cxx.i
 
 # target to preprocess a source file
 ge211_base.cxx.i:
-	cd "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f .cs211/lib/ge211/src/CMakeFiles/ge211.dir/build.make .cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_base.cxx.i
+	cd "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f .cs211/lib/ge211/src/CMakeFiles/ge211.dir/build.make .cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_base.cxx.i
 .PHONY : ge211_base.cxx.i
 
 ge211_base.s: ge211_base.cxx.s
@@ -230,7 +230,7 @@ ge211_base.s: ge211_base.cxx.s
 
 # target to generate assembly for a file
 ge211_base.cxx.s:
-	cd "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f .cs211/lib/ge211/src/CMakeFiles/ge211.dir/build.make .cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_base.cxx.s
+	cd "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f .cs211/lib/ge211/src/CMakeFiles/ge211.dir/build.make .cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_base.cxx.s
 .PHONY : ge211_base.cxx.s
 
 ge211_color.o: ge211_color.cxx.o
@@ -238,7 +238,7 @@ ge211_color.o: ge211_color.cxx.o
 
 # target to build an object file
 ge211_color.cxx.o:
-	cd "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f .cs211/lib/ge211/src/CMakeFiles/ge211.dir/build.make .cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_color.cxx.o
+	cd "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f .cs211/lib/ge211/src/CMakeFiles/ge211.dir/build.make .cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_color.cxx.o
 .PHONY : ge211_color.cxx.o
 
 ge211_color.i: ge211_color.cxx.i
@@ -246,7 +246,7 @@ ge211_color.i: ge211_color.cxx.i
 
 # target to preprocess a source file
 ge211_color.cxx.i:
-	cd "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f .cs211/lib/ge211/src/CMakeFiles/ge211.dir/build.make .cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_color.cxx.i
+	cd "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f .cs211/lib/ge211/src/CMakeFiles/ge211.dir/build.make .cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_color.cxx.i
 .PHONY : ge211_color.cxx.i
 
 ge211_color.s: ge211_color.cxx.s
@@ -254,7 +254,7 @@ ge211_color.s: ge211_color.cxx.s
 
 # target to generate assembly for a file
 ge211_color.cxx.s:
-	cd "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f .cs211/lib/ge211/src/CMakeFiles/ge211.dir/build.make .cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_color.cxx.s
+	cd "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f .cs211/lib/ge211/src/CMakeFiles/ge211.dir/build.make .cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_color.cxx.s
 .PHONY : ge211_color.cxx.s
 
 ge211_engine.o: ge211_engine.cxx.o
@@ -262,7 +262,7 @@ ge211_engine.o: ge211_engine.cxx.o
 
 # target to build an object file
 ge211_engine.cxx.o:
-	cd "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f .cs211/lib/ge211/src/CMakeFiles/ge211.dir/build.make .cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_engine.cxx.o
+	cd "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f .cs211/lib/ge211/src/CMakeFiles/ge211.dir/build.make .cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_engine.cxx.o
 .PHONY : ge211_engine.cxx.o
 
 ge211_engine.i: ge211_engine.cxx.i
@@ -270,7 +270,7 @@ ge211_engine.i: ge211_engine.cxx.i
 
 # target to preprocess a source file
 ge211_engine.cxx.i:
-	cd "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f .cs211/lib/ge211/src/CMakeFiles/ge211.dir/build.make .cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_engine.cxx.i
+	cd "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f .cs211/lib/ge211/src/CMakeFiles/ge211.dir/build.make .cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_engine.cxx.i
 .PHONY : ge211_engine.cxx.i
 
 ge211_engine.s: ge211_engine.cxx.s
@@ -278,7 +278,7 @@ ge211_engine.s: ge211_engine.cxx.s
 
 # target to generate assembly for a file
 ge211_engine.cxx.s:
-	cd "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f .cs211/lib/ge211/src/CMakeFiles/ge211.dir/build.make .cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_engine.cxx.s
+	cd "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f .cs211/lib/ge211/src/CMakeFiles/ge211.dir/build.make .cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_engine.cxx.s
 .PHONY : ge211_engine.cxx.s
 
 ge211_error.o: ge211_error.cxx.o
@@ -286,7 +286,7 @@ ge211_error.o: ge211_error.cxx.o
 
 # target to build an object file
 ge211_error.cxx.o:
-	cd "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f .cs211/lib/ge211/src/CMakeFiles/ge211.dir/build.make .cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_error.cxx.o
+	cd "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f .cs211/lib/ge211/src/CMakeFiles/ge211.dir/build.make .cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_error.cxx.o
 .PHONY : ge211_error.cxx.o
 
 ge211_error.i: ge211_error.cxx.i
@@ -294,7 +294,7 @@ ge211_error.i: ge211_error.cxx.i
 
 # target to preprocess a source file
 ge211_error.cxx.i:
-	cd "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f .cs211/lib/ge211/src/CMakeFiles/ge211.dir/build.make .cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_error.cxx.i
+	cd "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f .cs211/lib/ge211/src/CMakeFiles/ge211.dir/build.make .cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_error.cxx.i
 .PHONY : ge211_error.cxx.i
 
 ge211_error.s: ge211_error.cxx.s
@@ -302,7 +302,7 @@ ge211_error.s: ge211_error.cxx.s
 
 # target to generate assembly for a file
 ge211_error.cxx.s:
-	cd "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f .cs211/lib/ge211/src/CMakeFiles/ge211.dir/build.make .cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_error.cxx.s
+	cd "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f .cs211/lib/ge211/src/CMakeFiles/ge211.dir/build.make .cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_error.cxx.s
 .PHONY : ge211_error.cxx.s
 
 ge211_event.o: ge211_event.cxx.o
@@ -310,7 +310,7 @@ ge211_event.o: ge211_event.cxx.o
 
 # target to build an object file
 ge211_event.cxx.o:
-	cd "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f .cs211/lib/ge211/src/CMakeFiles/ge211.dir/build.make .cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_event.cxx.o
+	cd "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f .cs211/lib/ge211/src/CMakeFiles/ge211.dir/build.make .cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_event.cxx.o
 .PHONY : ge211_event.cxx.o
 
 ge211_event.i: ge211_event.cxx.i
@@ -318,7 +318,7 @@ ge211_event.i: ge211_event.cxx.i
 
 # target to preprocess a source file
 ge211_event.cxx.i:
-	cd "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f .cs211/lib/ge211/src/CMakeFiles/ge211.dir/build.make .cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_event.cxx.i
+	cd "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f .cs211/lib/ge211/src/CMakeFiles/ge211.dir/build.make .cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_event.cxx.i
 .PHONY : ge211_event.cxx.i
 
 ge211_event.s: ge211_event.cxx.s
@@ -326,7 +326,7 @@ ge211_event.s: ge211_event.cxx.s
 
 # target to generate assembly for a file
 ge211_event.cxx.s:
-	cd "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f .cs211/lib/ge211/src/CMakeFiles/ge211.dir/build.make .cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_event.cxx.s
+	cd "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f .cs211/lib/ge211/src/CMakeFiles/ge211.dir/build.make .cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_event.cxx.s
 .PHONY : ge211_event.cxx.s
 
 ge211_geometry.o: ge211_geometry.cxx.o
@@ -334,7 +334,7 @@ ge211_geometry.o: ge211_geometry.cxx.o
 
 # target to build an object file
 ge211_geometry.cxx.o:
-	cd "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f .cs211/lib/ge211/src/CMakeFiles/ge211.dir/build.make .cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_geometry.cxx.o
+	cd "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f .cs211/lib/ge211/src/CMakeFiles/ge211.dir/build.make .cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_geometry.cxx.o
 .PHONY : ge211_geometry.cxx.o
 
 ge211_geometry.i: ge211_geometry.cxx.i
@@ -342,7 +342,7 @@ ge211_geometry.i: ge211_geometry.cxx.i
 
 # target to preprocess a source file
 ge211_geometry.cxx.i:
-	cd "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f .cs211/lib/ge211/src/CMakeFiles/ge211.dir/build.make .cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_geometry.cxx.i
+	cd "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f .cs211/lib/ge211/src/CMakeFiles/ge211.dir/build.make .cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_geometry.cxx.i
 .PHONY : ge211_geometry.cxx.i
 
 ge211_geometry.s: ge211_geometry.cxx.s
@@ -350,7 +350,7 @@ ge211_geometry.s: ge211_geometry.cxx.s
 
 # target to generate assembly for a file
 ge211_geometry.cxx.s:
-	cd "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f .cs211/lib/ge211/src/CMakeFiles/ge211.dir/build.make .cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_geometry.cxx.s
+	cd "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f .cs211/lib/ge211/src/CMakeFiles/ge211.dir/build.make .cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_geometry.cxx.s
 .PHONY : ge211_geometry.cxx.s
 
 ge211_random.o: ge211_random.cxx.o
@@ -358,7 +358,7 @@ ge211_random.o: ge211_random.cxx.o
 
 # target to build an object file
 ge211_random.cxx.o:
-	cd "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f .cs211/lib/ge211/src/CMakeFiles/ge211.dir/build.make .cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_random.cxx.o
+	cd "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f .cs211/lib/ge211/src/CMakeFiles/ge211.dir/build.make .cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_random.cxx.o
 .PHONY : ge211_random.cxx.o
 
 ge211_random.i: ge211_random.cxx.i
@@ -366,7 +366,7 @@ ge211_random.i: ge211_random.cxx.i
 
 # target to preprocess a source file
 ge211_random.cxx.i:
-	cd "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f .cs211/lib/ge211/src/CMakeFiles/ge211.dir/build.make .cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_random.cxx.i
+	cd "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f .cs211/lib/ge211/src/CMakeFiles/ge211.dir/build.make .cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_random.cxx.i
 .PHONY : ge211_random.cxx.i
 
 ge211_random.s: ge211_random.cxx.s
@@ -374,7 +374,7 @@ ge211_random.s: ge211_random.cxx.s
 
 # target to generate assembly for a file
 ge211_random.cxx.s:
-	cd "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f .cs211/lib/ge211/src/CMakeFiles/ge211.dir/build.make .cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_random.cxx.s
+	cd "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f .cs211/lib/ge211/src/CMakeFiles/ge211.dir/build.make .cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_random.cxx.s
 .PHONY : ge211_random.cxx.s
 
 ge211_render.o: ge211_render.cxx.o
@@ -382,7 +382,7 @@ ge211_render.o: ge211_render.cxx.o
 
 # target to build an object file
 ge211_render.cxx.o:
-	cd "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f .cs211/lib/ge211/src/CMakeFiles/ge211.dir/build.make .cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_render.cxx.o
+	cd "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f .cs211/lib/ge211/src/CMakeFiles/ge211.dir/build.make .cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_render.cxx.o
 .PHONY : ge211_render.cxx.o
 
 ge211_render.i: ge211_render.cxx.i
@@ -390,7 +390,7 @@ ge211_render.i: ge211_render.cxx.i
 
 # target to preprocess a source file
 ge211_render.cxx.i:
-	cd "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f .cs211/lib/ge211/src/CMakeFiles/ge211.dir/build.make .cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_render.cxx.i
+	cd "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f .cs211/lib/ge211/src/CMakeFiles/ge211.dir/build.make .cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_render.cxx.i
 .PHONY : ge211_render.cxx.i
 
 ge211_render.s: ge211_render.cxx.s
@@ -398,7 +398,7 @@ ge211_render.s: ge211_render.cxx.s
 
 # target to generate assembly for a file
 ge211_render.cxx.s:
-	cd "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f .cs211/lib/ge211/src/CMakeFiles/ge211.dir/build.make .cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_render.cxx.s
+	cd "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f .cs211/lib/ge211/src/CMakeFiles/ge211.dir/build.make .cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_render.cxx.s
 .PHONY : ge211_render.cxx.s
 
 ge211_resource.o: ge211_resource.cxx.o
@@ -406,7 +406,7 @@ ge211_resource.o: ge211_resource.cxx.o
 
 # target to build an object file
 ge211_resource.cxx.o:
-	cd "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f .cs211/lib/ge211/src/CMakeFiles/ge211.dir/build.make .cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_resource.cxx.o
+	cd "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f .cs211/lib/ge211/src/CMakeFiles/ge211.dir/build.make .cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_resource.cxx.o
 .PHONY : ge211_resource.cxx.o
 
 ge211_resource.i: ge211_resource.cxx.i
@@ -414,7 +414,7 @@ ge211_resource.i: ge211_resource.cxx.i
 
 # target to preprocess a source file
 ge211_resource.cxx.i:
-	cd "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f .cs211/lib/ge211/src/CMakeFiles/ge211.dir/build.make .cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_resource.cxx.i
+	cd "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f .cs211/lib/ge211/src/CMakeFiles/ge211.dir/build.make .cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_resource.cxx.i
 .PHONY : ge211_resource.cxx.i
 
 ge211_resource.s: ge211_resource.cxx.s
@@ -422,7 +422,7 @@ ge211_resource.s: ge211_resource.cxx.s
 
 # target to generate assembly for a file
 ge211_resource.cxx.s:
-	cd "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f .cs211/lib/ge211/src/CMakeFiles/ge211.dir/build.make .cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_resource.cxx.s
+	cd "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f .cs211/lib/ge211/src/CMakeFiles/ge211.dir/build.make .cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_resource.cxx.s
 .PHONY : ge211_resource.cxx.s
 
 ge211_session.o: ge211_session.cxx.o
@@ -430,7 +430,7 @@ ge211_session.o: ge211_session.cxx.o
 
 # target to build an object file
 ge211_session.cxx.o:
-	cd "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f .cs211/lib/ge211/src/CMakeFiles/ge211.dir/build.make .cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_session.cxx.o
+	cd "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f .cs211/lib/ge211/src/CMakeFiles/ge211.dir/build.make .cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_session.cxx.o
 .PHONY : ge211_session.cxx.o
 
 ge211_session.i: ge211_session.cxx.i
@@ -438,7 +438,7 @@ ge211_session.i: ge211_session.cxx.i
 
 # target to preprocess a source file
 ge211_session.cxx.i:
-	cd "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f .cs211/lib/ge211/src/CMakeFiles/ge211.dir/build.make .cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_session.cxx.i
+	cd "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f .cs211/lib/ge211/src/CMakeFiles/ge211.dir/build.make .cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_session.cxx.i
 .PHONY : ge211_session.cxx.i
 
 ge211_session.s: ge211_session.cxx.s
@@ -446,7 +446,7 @@ ge211_session.s: ge211_session.cxx.s
 
 # target to generate assembly for a file
 ge211_session.cxx.s:
-	cd "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f .cs211/lib/ge211/src/CMakeFiles/ge211.dir/build.make .cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_session.cxx.s
+	cd "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f .cs211/lib/ge211/src/CMakeFiles/ge211.dir/build.make .cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_session.cxx.s
 .PHONY : ge211_session.cxx.s
 
 ge211_sprites.o: ge211_sprites.cxx.o
@@ -454,7 +454,7 @@ ge211_sprites.o: ge211_sprites.cxx.o
 
 # target to build an object file
 ge211_sprites.cxx.o:
-	cd "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f .cs211/lib/ge211/src/CMakeFiles/ge211.dir/build.make .cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_sprites.cxx.o
+	cd "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f .cs211/lib/ge211/src/CMakeFiles/ge211.dir/build.make .cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_sprites.cxx.o
 .PHONY : ge211_sprites.cxx.o
 
 ge211_sprites.i: ge211_sprites.cxx.i
@@ -462,7 +462,7 @@ ge211_sprites.i: ge211_sprites.cxx.i
 
 # target to preprocess a source file
 ge211_sprites.cxx.i:
-	cd "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f .cs211/lib/ge211/src/CMakeFiles/ge211.dir/build.make .cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_sprites.cxx.i
+	cd "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f .cs211/lib/ge211/src/CMakeFiles/ge211.dir/build.make .cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_sprites.cxx.i
 .PHONY : ge211_sprites.cxx.i
 
 ge211_sprites.s: ge211_sprites.cxx.s
@@ -470,7 +470,7 @@ ge211_sprites.s: ge211_sprites.cxx.s
 
 # target to generate assembly for a file
 ge211_sprites.cxx.s:
-	cd "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f .cs211/lib/ge211/src/CMakeFiles/ge211.dir/build.make .cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_sprites.cxx.s
+	cd "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f .cs211/lib/ge211/src/CMakeFiles/ge211.dir/build.make .cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_sprites.cxx.s
 .PHONY : ge211_sprites.cxx.s
 
 ge211_window.o: ge211_window.cxx.o
@@ -478,7 +478,7 @@ ge211_window.o: ge211_window.cxx.o
 
 # target to build an object file
 ge211_window.cxx.o:
-	cd "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f .cs211/lib/ge211/src/CMakeFiles/ge211.dir/build.make .cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_window.cxx.o
+	cd "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f .cs211/lib/ge211/src/CMakeFiles/ge211.dir/build.make .cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_window.cxx.o
 .PHONY : ge211_window.cxx.o
 
 ge211_window.i: ge211_window.cxx.i
@@ -486,7 +486,7 @@ ge211_window.i: ge211_window.cxx.i
 
 # target to preprocess a source file
 ge211_window.cxx.i:
-	cd "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f .cs211/lib/ge211/src/CMakeFiles/ge211.dir/build.make .cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_window.cxx.i
+	cd "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f .cs211/lib/ge211/src/CMakeFiles/ge211.dir/build.make .cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_window.cxx.i
 .PHONY : ge211_window.cxx.i
 
 ge211_window.s: ge211_window.cxx.s
@@ -494,7 +494,7 @@ ge211_window.s: ge211_window.cxx.s
 
 # target to generate assembly for a file
 ge211_window.cxx.s:
-	cd "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f .cs211/lib/ge211/src/CMakeFiles/ge211.dir/build.make .cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_window.cxx.s
+	cd "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug" && $(MAKE) $(MAKESILENT) -f .cs211/lib/ge211/src/CMakeFiles/ge211.dir/build.make .cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_window.cxx.s
 .PHONY : ge211_window.cxx.s
 
 # Help Target
@@ -561,6 +561,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

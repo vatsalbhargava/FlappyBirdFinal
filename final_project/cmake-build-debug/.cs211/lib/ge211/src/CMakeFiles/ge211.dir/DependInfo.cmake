@@ -8,25 +8,25 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/vatsalbhargava/Documents/CS 211/final_project/.cs211/lib/ge211/src/ge211_audio.cxx" "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug/.cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_audio.cxx.o"
-  "/Users/vatsalbhargava/Documents/CS 211/final_project/.cs211/lib/ge211/src/ge211_base.cxx" "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug/.cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_base.cxx.o"
-  "/Users/vatsalbhargava/Documents/CS 211/final_project/.cs211/lib/ge211/src/ge211_color.cxx" "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug/.cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_color.cxx.o"
-  "/Users/vatsalbhargava/Documents/CS 211/final_project/.cs211/lib/ge211/src/ge211_engine.cxx" "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug/.cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_engine.cxx.o"
-  "/Users/vatsalbhargava/Documents/CS 211/final_project/.cs211/lib/ge211/src/ge211_error.cxx" "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug/.cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_error.cxx.o"
-  "/Users/vatsalbhargava/Documents/CS 211/final_project/.cs211/lib/ge211/src/ge211_event.cxx" "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug/.cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_event.cxx.o"
-  "/Users/vatsalbhargava/Documents/CS 211/final_project/.cs211/lib/ge211/src/ge211_geometry.cxx" "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug/.cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_geometry.cxx.o"
-  "/Users/vatsalbhargava/Documents/CS 211/final_project/.cs211/lib/ge211/src/ge211_random.cxx" "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug/.cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_random.cxx.o"
-  "/Users/vatsalbhargava/Documents/CS 211/final_project/.cs211/lib/ge211/src/ge211_render.cxx" "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug/.cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_render.cxx.o"
-  "/Users/vatsalbhargava/Documents/CS 211/final_project/.cs211/lib/ge211/src/ge211_resource.cxx" "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug/.cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_resource.cxx.o"
-  "/Users/vatsalbhargava/Documents/CS 211/final_project/.cs211/lib/ge211/src/ge211_session.cxx" "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug/.cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_session.cxx.o"
-  "/Users/vatsalbhargava/Documents/CS 211/final_project/.cs211/lib/ge211/src/ge211_sprites.cxx" "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug/.cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_sprites.cxx.o"
-  "/Users/vatsalbhargava/Documents/CS 211/final_project/.cs211/lib/ge211/src/ge211_window.cxx" "/Users/vatsalbhargava/Documents/CS 211/final_project/cmake-build-debug/.cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_window.cxx.o"
+  "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/.cs211/lib/ge211/src/ge211_audio.cxx" "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug/.cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_audio.cxx.o"
+  "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/.cs211/lib/ge211/src/ge211_base.cxx" "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug/.cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_base.cxx.o"
+  "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/.cs211/lib/ge211/src/ge211_color.cxx" "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug/.cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_color.cxx.o"
+  "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/.cs211/lib/ge211/src/ge211_engine.cxx" "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug/.cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_engine.cxx.o"
+  "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/.cs211/lib/ge211/src/ge211_error.cxx" "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug/.cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_error.cxx.o"
+  "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/.cs211/lib/ge211/src/ge211_event.cxx" "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug/.cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_event.cxx.o"
+  "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/.cs211/lib/ge211/src/ge211_geometry.cxx" "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug/.cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_geometry.cxx.o"
+  "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/.cs211/lib/ge211/src/ge211_random.cxx" "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug/.cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_random.cxx.o"
+  "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/.cs211/lib/ge211/src/ge211_render.cxx" "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug/.cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_render.cxx.o"
+  "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/.cs211/lib/ge211/src/ge211_resource.cxx" "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug/.cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_resource.cxx.o"
+  "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/.cs211/lib/ge211/src/ge211_session.cxx" "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug/.cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_session.cxx.o"
+  "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/.cs211/lib/ge211/src/ge211_sprites.cxx" "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug/.cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_sprites.cxx.o"
+  "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/.cs211/lib/ge211/src/ge211_window.cxx" "/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/cmake-build-debug/.cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_window.cxx.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_CXX
-  "GE211_RESOURCES=\"/Users/vatsalbhargava/Documents/CS 211/final_project/.cs211/lib/ge211/src/../Resources/\",\"/usr/local/share/ge211/\""
+  "GE211_RESOURCES=\"/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/.cs211/lib/ge211/src/../Resources/\",\"/usr/local/share/ge211/\""
   )
 
 # The include file search paths:
