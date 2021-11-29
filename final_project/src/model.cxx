@@ -48,6 +48,11 @@ Model::bird_to(int y)
 
 }
 
+bool
+Model::bird_alive(){
+    return bird.live;
+}
+
 void
 Model::on_frame(double dt)
 {
