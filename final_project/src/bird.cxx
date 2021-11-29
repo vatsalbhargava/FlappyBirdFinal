@@ -51,6 +51,7 @@ Bird
 Bird::next(double dt) const
 {
     Bird result(*this);
+    result.center.x += dt*result.velocity.width;
     // TODO: your code here
     if (!jumping){
         result.center.y -= 1;

@@ -20,110 +20,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d8d2ff2-3390-41df-a9e6-151c654a289b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/All_in_model_test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/All_in_model_test.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/catch/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/catch/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/catch/CMakeFiles/catch.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/catch/CMakeFiles/catch.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/catch/CMakeFiles/catch.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/catch/CMakeFiles/catch.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/catch/CMakeFiles/catch.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/catch/CMakeFiles/catch.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/catch/CMakeFiles/catch.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/catch/CMakeFiles/catch.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/catch/CMakeFiles/catch.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/catch/CMakeFiles/catch.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/catch/CMakeFiles/catch.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/catch/CMakeFiles/catch.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/catch/CMakeFiles/catch.dir/src/catch.cxx.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/catch/CMakeFiles/catch.dir/src/catch.cxx.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/catch/CTestTestfile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/catch/CTestTestfile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/catch/Catch2.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/catch/Catch2.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/catch/Catch2Config.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/catch/Catch2Config.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/catch/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/catch/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/catch/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/catch/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/catch/libcatch.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/catch/libcatch.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/ge211/3rdparty/utf8-cpp/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/ge211/3rdparty/utf8-cpp/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/ge211/3rdparty/utf8-cpp/CTestTestfile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/ge211/3rdparty/utf8-cpp/CTestTestfile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/ge211/3rdparty/utf8-cpp/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/ge211/3rdparty/utf8-cpp/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/ge211/3rdparty/utf8-cpp/Utf8CppConfig.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/ge211/3rdparty/utf8-cpp/Utf8CppConfig.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/ge211/3rdparty/utf8-cpp/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/ge211/3rdparty/utf8-cpp/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/ge211/3rdparty/utf8-cpp/utf8-cpp.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/ge211/3rdparty/utf8-cpp/utf8-cpp.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/ge211/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/ge211/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/ge211/CTestTestfile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/ge211/CTestTestfile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/ge211/Ge211Config.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/ge211/Ge211Config.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/ge211/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/ge211/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/ge211/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/ge211/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/ge211/example/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/ge211/example/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/ge211/example/CMakeFiles/fireworks.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/ge211/example/CMakeFiles/fireworks.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/ge211/example/CMakeFiles/fireworks.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/ge211/example/CMakeFiles/fireworks.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/ge211/example/CMakeFiles/fireworks.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/ge211/example/CMakeFiles/fireworks.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/ge211/example/CMakeFiles/fireworks.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/ge211/example/CMakeFiles/fireworks.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/ge211/example/CTestTestfile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/ge211/example/CTestTestfile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/ge211/example/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/ge211/example/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/ge211/example/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/ge211/example/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/ge211/example/ge211_examples.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/ge211/example/ge211_examples.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/ge211/ge211.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/ge211/ge211.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/ge211/src/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/ge211/src/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/ge211/src/CMakeFiles/ge211.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/ge211/src/CMakeFiles/ge211.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/ge211/src/CMakeFiles/ge211.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/ge211/src/CMakeFiles/ge211.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/ge211/src/CMakeFiles/ge211.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/ge211/src/CMakeFiles/ge211.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/ge211/src/CMakeFiles/ge211.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/ge211/src/CMakeFiles/ge211.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/ge211/src/CMakeFiles/ge211.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/ge211/src/CMakeFiles/ge211.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_audio.cxx.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_audio.cxx.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_base.cxx.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_base.cxx.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_color.cxx.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_color.cxx.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_engine.cxx.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_engine.cxx.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_error.cxx.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_error.cxx.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_event.cxx.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_event.cxx.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_geometry.cxx.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_geometry.cxx.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_random.cxx.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_random.cxx.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_render.cxx.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_render.cxx.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_resource.cxx.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_resource.cxx.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_session.cxx.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_session.cxx.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_sprites.cxx.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_sprites.cxx.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_window.cxx.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/ge211/src/CMakeFiles/ge211.dir/ge211_window.cxx.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/ge211/src/CTestTestfile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/ge211/src/CTestTestfile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/ge211/src/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/ge211/src/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/ge211/src/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/ge211/src/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/ge211/src/libge211.a" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.cs211/lib/ge211/src/libge211.a" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeError.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeError.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bird_test.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bird_test.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bird_test.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bird_test.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bird_test.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bird_test.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bird_test.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bird_test.dir/depend.internal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bird_test.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bird_test.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bird_test.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bird_test.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bird_test.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bird_test.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bird_test.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bird_test.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/game.dir/CXX.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/game.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/game.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/game.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/game.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/game.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/game.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/game.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/game.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/game.dir/src/bird.cxx.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/game.dir/src/controller.cxx.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/game.dir/src/main.cxx.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/game.dir/src/model.cxx.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/game.dir/src/view.cxx.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/model_test.dir/CXX.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/model_test.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/model_test.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/model_test.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/model_test.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/model_test.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/model_test.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/model_test.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/model_test.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/model_test.dir/flags.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/model_test.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/model_test.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/model_test.dir/src/bird.cxx.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/model_test.dir/src/model.cxx.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/model_test.dir/test/model_test.cxx.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CTestTestfile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CTestTestfile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bird_test.dir/src/bird.cxx.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bird_test.dir/src/bird.cxx.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bird_test.dir/src/model.cxx.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bird_test.dir/src/model.cxx.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bird_test.dir/test/bird_test.cxx.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/bird_test.dir/test/bird_test.cxx.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/bird_test" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/bird_test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bird.cxx" beforeDir="false" afterPath="$PROJECT_DIR$/src/bird.cxx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model.cxx" beforeDir="false" afterPath="$PROJECT_DIR$/src/model.cxx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/bird_test.cxx" beforeDir="false" afterPath="$PROJECT_DIR$/test/bird_test.cxx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,7 +68,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RunManager" selected="CMake Application.Flappy">
+  <component name="RunManager" selected="CMake Application.bird_test">
     <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="CLION.EXTERNAL.BUILD" enabled="true" />
@@ -222,7 +130,7 @@
       <updated>1638069273244</updated>
       <workItem from="1638069277469" duration="1417000" />
       <workItem from="1638072036660" duration="75000" />
-      <workItem from="1638072400803" duration="918000" />
+      <workItem from="1638072400803" duration="3611000" />
     </task>
     <servers />
   </component>
