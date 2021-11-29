@@ -7,4 +7,4 @@ main()
     Controller(model).run();
 
     return 0;
-}s
+}
