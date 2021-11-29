@@ -21,45 +21,11 @@
   <component name="ChangeListManager">
     <list default="true" id="8d8d2ff2-3390-41df-a9e6-151c654a289b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Flappy.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Flappy.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Flappy.dir/src/bird.cxx.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Flappy.dir/src/bird.cxx.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Flappy.dir/src/model.cxx.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Flappy.dir/src/model.cxx.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/15" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/16" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/17" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/18" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/19" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/20" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/21" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/22" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/23" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/24" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/25" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/26" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/27" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/28" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/count.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Flappy" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Flappy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bird.cxx" beforeDir="false" afterPath="$PROJECT_DIR$/src/bird.cxx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bird.hxx" beforeDir="false" afterPath="$PROJECT_DIR$/src/bird.hxx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller.cxx" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller.cxx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller.hxx" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller.hxx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model.cxx" beforeDir="false" afterPath="$PROJECT_DIR$/src/model.cxx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model.hxx" beforeDir="false" afterPath="$PROJECT_DIR$/src/model.hxx" afterDir="false" />
     </list>
-    <list id="b3a70215-5924-4181-8bf7-fe370d18c886" name="Changes by benmagevney" comment="">
-      <change beforePath="$PROJECT_DIR$/src/bird.cxx" beforeDir="false" afterPath="$PROJECT_DIR$/src/bird.cxx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bird.hxx" beforeDir="false" afterPath="$PROJECT_DIR$/src/bird.hxx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller.cxx" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller.cxx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model.cxx" beforeDir="false" afterPath="$PROJECT_DIR$/src/model.cxx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model.hxx" beforeDir="false" afterPath="$PROJECT_DIR$/src/model.hxx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view.cxx" beforeDir="false" afterPath="$PROJECT_DIR$/src/view.cxx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view.hxx" beforeDir="false" afterPath="$PROJECT_DIR$/src/view.hxx" afterDir="false" />
-    </list>
+    <list id="b3a70215-5924-4181-8bf7-fe370d18c886" name="Changes by benmagevney" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,57 +37,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
-  </component>
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/src/controller.cxx">
-      <ranges>
-        <range start1="5" end1="6" start2="5" end2="6" changelist="8d8d2ff2-3390-41df-a9e6-151c654a289b" />
-        <range start1="15" end1="16" start2="15" end2="16" changelist="8d8d2ff2-3390-41df-a9e6-151c654a289b" />
-        <range start1="18" end1="20" start2="18" end2="20" changelist="b3a70215-5924-4181-8bf7-fe370d18c886" />
-        <range start1="23" end1="24" start2="23" end2="23" changelist="8d8d2ff2-3390-41df-a9e6-151c654a289b" />
-        <range start1="32" end1="33" start2="31" end2="32" changelist="b3a70215-5924-4181-8bf7-fe370d18c886" />
-        <range start1="34" end1="35" start2="33" end2="34" changelist="b3a70215-5924-4181-8bf7-fe370d18c886" />
-      </ranges>
-    </file>
-    <file path="$PROJECT_DIR$/src/model.cxx">
-      <ranges>
-        <range start1="7" end1="12" start2="7" end2="9" changelist="8d8d2ff2-3390-41df-a9e6-151c654a289b" />
-        <range start1="13" end1="32" start2="10" end2="11" changelist="8d8d2ff2-3390-41df-a9e6-151c654a289b" />
-        <range start1="39" end1="39" start2="18" end2="49" changelist="8d8d2ff2-3390-41df-a9e6-151c654a289b" />
-        <range start1="51" end1="52" start2="61" end2="62" changelist="8d8d2ff2-3390-41df-a9e6-151c654a289b" />
-        <range start1="54" end1="54" start2="64" end2="72" changelist="b3a70215-5924-4181-8bf7-fe370d18c886" />
-        <range start1="59" end1="59" start2="77" end2="78" changelist="8d8d2ff2-3390-41df-a9e6-151c654a289b" />
-        <range start1="60" end1="60" start2="79" end2="89" changelist="8d8d2ff2-3390-41df-a9e6-151c654a289b" />
-        <range start1="75" end1="77" start2="104" end2="106" changelist="8d8d2ff2-3390-41df-a9e6-151c654a289b" />
-      </ranges>
-    </file>
-    <file path="$PROJECT_DIR$/src/model.hxx">
-      <ranges>
-        <range start1="23" end1="24" start2="23" end2="24" changelist="8d8d2ff2-3390-41df-a9e6-151c654a289b" />
-        <range start1="38" end1="38" start2="38" end2="40" changelist="8d8d2ff2-3390-41df-a9e6-151c654a289b" />
-        <range start1="46" end1="46" start2="48" end2="50" changelist="b3a70215-5924-4181-8bf7-fe370d18c886" />
-      </ranges>
-    </file>
-    <file path="$PROJECT_DIR$/src/bird.hxx">
-      <ranges>
-        <range start1="15" end1="16" start2="15" end2="16" changelist="8d8d2ff2-3390-41df-a9e6-151c654a289b" />
-        <range start1="89" end1="90" start2="89" end2="90" changelist="8d8d2ff2-3390-41df-a9e6-151c654a289b" />
-        <range start1="137" end1="138" start2="137" end2="138" changelist="8d8d2ff2-3390-41df-a9e6-151c654a289b" />
-        <range start1="148" end1="148" start2="148" end2="150" changelist="b3a70215-5924-4181-8bf7-fe370d18c886" />
-      </ranges>
-    </file>
-    <file path="$PROJECT_DIR$/src/bird.cxx">
-      <ranges>
-        <range start1="9" end1="12" start2="9" end2="12" changelist="8d8d2ff2-3390-41df-a9e6-151c654a289b" />
-        <range start1="13" end1="14" start2="13" end2="16" changelist="b3a70215-5924-4181-8bf7-fe370d18c886" />
-        <range start1="16" end1="17" start2="18" end2="19" changelist="b3a70215-5924-4181-8bf7-fe370d18c886" />
-        <range start1="20" end1="22" start2="22" end2="24" changelist="8d8d2ff2-3390-41df-a9e6-151c654a289b" />
-        <range start1="30" end1="31" start2="32" end2="32" changelist="8d8d2ff2-3390-41df-a9e6-151c654a289b" />
-        <range start1="53" end1="54" start2="54" end2="55" changelist="8d8d2ff2-3390-41df-a9e6-151c654a289b" />
-        <range start1="62" end1="63" start2="63" end2="66" changelist="8d8d2ff2-3390-41df-a9e6-151c654a289b" />
-        <range start1="133" end1="135" start2="136" end2="138" changelist="8d8d2ff2-3390-41df-a9e6-151c654a289b" />
-      </ranges>
-    </file>
   </component>
   <component name="ProjectId" id="21Wug9cMdSeSxqNNW9D33rk59MV" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -148,11 +63,6 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunManager" selected="CMake Application.Flappy">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Flappy" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Flappy" TARGET_NAME="Flappy" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Flappy" RUN_TARGET_NAME="Flappy">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -210,6 +120,8 @@
       <workItem from="1638069277469" duration="1417000" />
       <workItem from="1638072036660" duration="75000" />
       <workItem from="1638072400803" duration="22038000" />
+      <workItem from="1638206972660" duration="4000" />
+      <workItem from="1638207506850" duration="7000" />
     </task>
     <servers />
   </component>
@@ -226,5 +138,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

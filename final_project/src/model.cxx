@@ -7,6 +7,7 @@ Model::Model()
         score(0),
         duration_of_jump(0.0),
         pipes(),
+        level(1),
         time_passed(0),
         powerups()
 
@@ -19,18 +20,6 @@ void
 Model::start_game()
 {
     std::vector<Block> pipes_temp;
-    // Block one;
-    // one.x = 600;
-    // one.y = 0;
-    // one.width = 100;
-    // one.height = 200;
-    // Block two;
-    // two.x = 600;
-    // two.y = 200;
-    // two.width = 100;
-    // two.height = 200;
-    // pipes_temp.push_back(one);
-    // pipes_temp.push_back(two);
     for (size_t i = 0; i < 1000; i++){
         Block curr;
         Block curr2;
@@ -79,7 +68,7 @@ Model::on_frame(double dt)
     //Only do shit if the bird is live
 
     if (bird.live == "live"){
-
+        time_passed += 1;
         if (bird.jumping) {
             duration_of_jump += 1;
             if (duration_of_jump > 15) {
@@ -104,8 +93,9 @@ Model::on_frame(double dt)
             bird.live = "dead";
         }
 
+        
         for (size_t i = 0; i < 1000; i++){
-            pipes[i].x -= 5;
+            pipes[i].x -= 5 * level;
         }
 
         bird = bird.next(dt);

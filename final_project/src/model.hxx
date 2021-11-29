@@ -44,6 +44,8 @@ public:
 
     int time_passed;
 
+    int level;
+
     std::vector<Block> pipes;
 
     int score;
