@@ -21,9 +21,23 @@
   <component name="ChangeListManager">
     <list default="true" id="8d8d2ff2-3390-41df-a9e6-151c654a289b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Flappy.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Flappy.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Flappy.dir/src/bird.cxx.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Flappy.dir/src/bird.cxx.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Flappy.dir/src/controller.cxx.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Flappy.dir/src/main.cxx.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Flappy.dir/src/model.cxx.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Flappy.dir/src/model.cxx.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Flappy.dir/src/view.cxx.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bird.cxx" beforeDir="false" afterPath="$PROJECT_DIR$/src/bird.cxx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bird.hxx" beforeDir="false" afterPath="$PROJECT_DIR$/src/bird.hxx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller.cxx" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller.cxx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller.hxx" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller.hxx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model.cxx" beforeDir="false" afterPath="$PROJECT_DIR$/src/model.cxx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model.hxx" beforeDir="false" afterPath="$PROJECT_DIR$/src/model.hxx" afterDir="false" />
     </list>
-    <list id="b3a70215-5924-4181-8bf7-fe370d18c886" name="Changes by benmagevney" comment="" />
+    <list id="b3a70215-5924-4181-8bf7-fe370d18c886" name="Changes by benmagevney" comment="">
+      <change beforePath="$PROJECT_DIR$/src/view.cxx" beforeDir="false" afterPath="$PROJECT_DIR$/src/view.cxx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view.hxx" beforeDir="false" afterPath="$PROJECT_DIR$/src/view.hxx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,6 +62,7 @@
     <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.advertisement.text.has.clang-format" value="true" />
     <property name="cf.first.check.clang-format" value="false" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="cmake.loaded.for.project" value="true" />
@@ -59,7 +74,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RunManager" selected="CMake Application.bird_test">
+  <component name="RunManager" selected="CMake Application.Flappy">
     <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="CLION.EXTERNAL.BUILD" enabled="true" />
@@ -121,7 +136,7 @@
       <updated>1638069273244</updated>
       <workItem from="1638069277469" duration="1417000" />
       <workItem from="1638072036660" duration="75000" />
-      <workItem from="1638072400803" duration="7909000" />
+      <workItem from="1638072400803" duration="10968000" />
     </task>
     <servers />
   </component>

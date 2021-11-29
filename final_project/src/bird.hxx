@@ -2,7 +2,7 @@
 #pragma once
 
 #include <ge211.hxx>
-
+#include <string>
 
 /// We will represent positions as GE211 `Posn<float>`s, which we alias
 /// with the type name `Position`. This is a struct that could be
@@ -142,7 +142,7 @@ struct Bird
 
     /// Whether the ball is moving freely (true) or stuck to the top of
     /// the paddle (false).
-    bool live;
+    std::string live;
 
     /// Says if the bird is jumping or falling
     bool jumping;

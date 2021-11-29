@@ -21,7 +21,7 @@ public:
     // Set the score to 0
     void start_game();
 
-    bool bird_alive();
+    std::string bird_alive();
     // When the game is started the bird is moved to the original position
     void bird_to(int y);
 

@@ -11,4 +11,18 @@ public:
 
 private:
     Model const& model_;
+
+    // sprites for game
+    ge211::Circle_sprite const bird_sprite;
+    ge211::Rectangle_sprite const pipe_sprite;
+    // end game sprites
+    ge211::Text_sprite const game_over_sprite;
+    ge211::Text_sprite const over_inst_sprite;
+    // start screen sprites
+    ge211::Text_sprite const welcome_sprite;
+    ge211::Text_sprite const instructions_sprite;
+
+    // helpers
+    void show_score(ge211::Sprite_set& sprites);
+
 };

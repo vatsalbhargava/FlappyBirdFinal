@@ -37,7 +37,7 @@ Model::Model()
 void
 Model::start_game()
 {
-    bird.live = true;
+    bird.live = "live";
 }
 
 //Useful for restarting the game
@@ -48,7 +48,7 @@ Model::bird_to(int y)
 
 }
 
-bool
+std::string
 Model::bird_alive(){
     return bird.live;
 }
@@ -57,24 +57,24 @@ void
 Model::on_frame(double dt)
 {
     //Only do shit if the bird is live
-    if (bird.live){
-        Bird temp_bird = bird.next();
+    if (bird.live == "live"){
+        Bird temp_bird = bird.next(dt);
 
         //Check if it hits the top,bottom, or any bricks
         if (temp_bird.hits_top()){
-            bird.live = false;
+            bird.live = "dead";
         }
 
         if (temp_bird.hit_pipe(pipes)){
-            bird.live = false;
+            bird.live = "dead";
         }
 
         if (temp_bird.hits_bottom()){
-            bird.live = false;
+            bird.live = "dead";
         }
 
         for (size_t i = 0; i < 100; i++){
-            pipes[i].x += 10;
+            pipes[i].x -= 10;
         }
 
         bird = bird.next(dt);

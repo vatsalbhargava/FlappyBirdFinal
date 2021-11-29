@@ -15,9 +15,10 @@ Controller::draw(ge211::Sprite_set& set)
 void
 Controller::on_mouse_down(ge211::Mouse_button)
 {
-    if (model_.bird_alive()){
+    if (model_.bird_alive() == "live"){
         bird.center.y += 80;
     }else {
+        model_.bird_to(300);
         model_.start_game();
     }
 
@@ -30,7 +31,12 @@ Controller::on_key(ge211::Key key){
     }
 
     if (key == ge211::Key::code(' ')){
-        bird.center.y += 80;
+        if (model_.bird_alive() == "live"){
+            bird.center.y += 80;
+        }else {
+            model_.bird_to(300);
+            model_.start_game();
+        }
     }
 }
 

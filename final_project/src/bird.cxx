@@ -10,7 +10,7 @@ Bird::Bird()
         : radius(50),
           center(Position {400,300}),
           velocity({0,0}),
-          live(false),
+          live("start"),
           jumping(false)
 { }
 
@@ -61,6 +61,7 @@ Bird::next(double dt) const
     //     return result;
     // }
     result.center.y -= 5;
+    return result;
 
 }
 
