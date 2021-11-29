@@ -48,4 +48,26 @@ Model::bird_to(int y)
 
 }
 
+void
+Model::on_frame(double dt)
+{
+    //Only do shit if the bird is live
+    if (bird.live){
+        Bird temp_bird = bird.next();
 
+        //Check if it hits the top,bottom, or any bricks
+        if (temp_bird.hits_top()){
+            bird.live = false;
+        }
+
+        if (temp_bird.hit_pipe(pipes)){
+            bird.live = false;
+        }
+
+        if (temp_bird.hits_bottom()){
+            bird.live = false;
+        }
+
+        bird = bird.next(dt);
+    }
+}

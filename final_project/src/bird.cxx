@@ -57,7 +57,7 @@ Bird::next(double dt) const
         result.center.y -= 1;
         return result;
     }else{
-        result.center.y += 1;
+        result.center.y += 50;
         return result;
     }
 
