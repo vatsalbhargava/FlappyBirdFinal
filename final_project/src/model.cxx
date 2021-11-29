@@ -73,6 +73,10 @@ Model::on_frame(double dt)
             bird.live = false;
         }
 
+        for (size_t i = 0; i < 100; i++){
+            pipes[i].x += 10;
+        }
+
         bird = bird.next(dt);
     }
 }
