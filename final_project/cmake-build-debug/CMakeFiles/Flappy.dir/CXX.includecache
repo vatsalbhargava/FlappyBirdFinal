@@ -266,14 +266,22 @@ string
 
 .cs211/lib/ge211/include/ge211_version.hxx
 
-/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/src/bird.cxx
-bird.hxx
-/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/src/bird.hxx
-
 /Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/src/bird.hxx
 ge211.hxx
 -
 string
+-
+
+/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/src/model.cxx
+model.hxx
+/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/src/model.hxx
+stdlib.h
+-
+
+/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/src/model.hxx
+bird.hxx
+/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/src/bird.hxx
+vector
 -
 
 /usr/local/include/SDL2/SDL_blendmode.h

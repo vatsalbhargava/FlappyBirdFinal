@@ -52,6 +52,7 @@ public:
 
     std::vector<Block> powerups;
 
+    int dist_traveled;
 private:
 
     float duration_of_jump;

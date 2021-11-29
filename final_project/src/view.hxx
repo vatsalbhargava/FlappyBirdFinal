@@ -15,6 +15,7 @@ private:
     // sprites for game
     ge211::Circle_sprite const bird_sprite;
     ge211::Rectangle_sprite const pipe_sprite;
+    ge211::Circle_sprite const powerup_sprite;
     // score sprite
     ge211::Text_sprite score_sprite;
 
@@ -27,5 +28,7 @@ private:
 
     // helpers
     void show_instructions(ge211::Sprite_set& sprites);
-    void draw_pipes(ge211:: Sprite_set& sprites);
+    void draw_pipes(ge211::Sprite_set& sprites);
+    void show_score(ge211::Sprite_set& sprites);
+    void show_powerup(ge211::Sprite_set& sprites);
 };

@@ -1,18 +1,16 @@
-//
-// Created by Vatsal Bhargava on 11/27/21.
-//
 
 #include "bird.hxx"
 
-// It won't compile without this, so you get it for free.
+// setting value of gravity
+float bird_gravity = 250;
 
 Bird::Bird()
         : radius(10),
           center(Posn {400,300}),
-          velocity({0,225}),
+          velocity({0, bird_gravity}),
           live("start"),
           jumping(false),
-          gravity(225)
+          gravity(bird_gravity)
 
 { }
 
@@ -106,6 +104,25 @@ Bird::hits_block(Block const& block) const
         return false;
     }
     return true;
+
+    // bird dims
+    /*float ball_right = center.x + radius;
+    float ball_left = center.x - radius;
+    float ball_top = center.y - radius;
+    float ball_bottom = center.y + radius;
+    // block dims
+    float block_right = block.x + block.width;
+    float block_left = block.x;
+    float block_top = block.y;
+    float block_bottom = block.y + block.height;
+
+    if ((ball_right < block_left) || (block_right < ball_left)) {
+        return false;
+    } else if ((ball_bottom < block_top) || (block_bottom < ball_top)) {
+        return false;
+    } else {
+        return true;
+    }*/
 }
 
 // Once you've written `Bird::hits_block`, finding an element of `bricks`
@@ -136,6 +153,18 @@ Bird::hit_pipe(std::vector<Block>& bricks) const
         if (hits_block(curr)){
             // curr = bricks.back();
             // bricks.pop_back();
+            return true;
+        }
+    }
+    return false;
+}
+
+bool
+Bird::hit_powerup(std::vector<Block>& powerups) const
+{
+    for (Block& curr: powerups) {
+        if (hits_block(curr)) {
+            powerups.pop_back();
             return true;
         }
     }

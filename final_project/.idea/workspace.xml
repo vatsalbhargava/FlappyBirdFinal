@@ -21,11 +21,26 @@
   <component name="ChangeListManager">
     <list default="true" id="8d8d2ff2-3390-41df-a9e6-151c654a289b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Flappy.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Flappy.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Flappy.dir/src/bird.cxx.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Flappy.dir/src/bird.cxx.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Flappy.dir/src/controller.cxx.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Flappy.dir/src/controller.cxx.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Flappy.dir/src/main.cxx.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Flappy.dir/src/main.cxx.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Flappy.dir/src/model.cxx.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Flappy.dir/src/model.cxx.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Flappy.dir/src/view.cxx.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Flappy.dir/src/view.cxx.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Flappy" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Flappy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bird.cxx" beforeDir="false" afterPath="$PROJECT_DIR$/src/bird.cxx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model.cxx" beforeDir="false" afterPath="$PROJECT_DIR$/src/model.cxx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model.hxx" beforeDir="false" afterPath="$PROJECT_DIR$/src/model.hxx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view.cxx" beforeDir="false" afterPath="$PROJECT_DIR$/src/view.cxx" afterDir="false" />
     </list>
-    <list id="b3a70215-5924-4181-8bf7-fe370d18c886" name="Changes by benmagevney" comment="" />
+    <list id="b3a70215-5924-4181-8bf7-fe370d18c886" name="Changes by benmagevney" comment="">
+      <change beforePath="$PROJECT_DIR$/src/bird.cxx" beforeDir="false" afterPath="$PROJECT_DIR$/src/bird.cxx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/bird.hxx" beforeDir="false" afterPath="$PROJECT_DIR$/src/bird.hxx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model.cxx" beforeDir="false" afterPath="$PROJECT_DIR$/src/model.cxx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view.cxx" beforeDir="false" afterPath="$PROJECT_DIR$/src/view.cxx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view.hxx" beforeDir="false" afterPath="$PROJECT_DIR$/src/view.hxx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,6 +52,52 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="LineStatusTrackerManager">
+    <file path="$PROJECT_DIR$/src/bird.cxx">
+      <ranges>
+        <range start1="0" end1="3" start2="0" end2="0" changelist="8d8d2ff2-3390-41df-a9e6-151c654a289b" />
+        <range start1="6" end1="7" start2="3" end2="5" changelist="8d8d2ff2-3390-41df-a9e6-151c654a289b" />
+        <range start1="11" end1="12" start2="9" end2="10" changelist="8d8d2ff2-3390-41df-a9e6-151c654a289b" />
+        <range start1="14" end1="15" start2="12" end2="13" changelist="8d8d2ff2-3390-41df-a9e6-151c654a289b" />
+        <range start1="108" end1="108" start2="106" end2="125" changelist="8d8d2ff2-3390-41df-a9e6-151c654a289b" />
+        <range start1="143" end1="143" start2="160" end2="172" changelist="b3a70215-5924-4181-8bf7-fe370d18c886" />
+      </ranges>
+    </file>
+    <file path="$PROJECT_DIR$/src/view.cxx">
+      <ranges>
+        <range start1="6" end1="7" start2="6" end2="7" changelist="8d8d2ff2-3390-41df-a9e6-151c654a289b" />
+        <range start1="8" end1="8" start2="8" end2="9" changelist="b3a70215-5924-4181-8bf7-fe370d18c886" />
+        <range start1="14" end1="14" start2="15" end2="16" changelist="b3a70215-5924-4181-8bf7-fe370d18c886" />
+        <range start1="15" end1="17" start2="17" end2="19" changelist="8d8d2ff2-3390-41df-a9e6-151c654a289b" />
+        <range start1="18" end1="20" start2="20" end2="22" changelist="8d8d2ff2-3390-41df-a9e6-151c654a289b" />
+        <range start1="26" end1="28" start2="28" end2="30" changelist="b3a70215-5924-4181-8bf7-fe370d18c886" />
+        <range start1="32" end1="32" start2="34" end2="35" changelist="8d8d2ff2-3390-41df-a9e6-151c654a289b" />
+        <range start1="35" end1="37" start2="38" end2="38" changelist="b3a70215-5924-4181-8bf7-fe370d18c886" />
+        <range start1="40" end1="42" start2="41" end2="43" changelist="8d8d2ff2-3390-41df-a9e6-151c654a289b" />
+        <range start1="43" end1="45" start2="44" end2="46" changelist="8d8d2ff2-3390-41df-a9e6-151c654a289b" />
+        <range start1="52" end1="53" start2="53" end2="54" changelist="8d8d2ff2-3390-41df-a9e6-151c654a289b" />
+        <range start1="54" end1="55" start2="55" end2="56" changelist="8d8d2ff2-3390-41df-a9e6-151c654a289b" />
+        <range start1="58" end1="58" start2="59" end2="73" changelist="b3a70215-5924-4181-8bf7-fe370d18c886" />
+      </ranges>
+    </file>
+    <file path="$PROJECT_DIR$/src/model.cxx">
+      <ranges>
+        <range start1="6" end1="9" start2="6" end2="7" changelist="8d8d2ff2-3390-41df-a9e6-151c654a289b" />
+        <range start1="10" end1="13" start2="8" end2="13" changelist="8d8d2ff2-3390-41df-a9e6-151c654a289b" />
+        <range start1="22" end1="22" start2="22" end2="23" changelist="8d8d2ff2-3390-41df-a9e6-151c654a289b" />
+        <range start1="25" end1="27" start2="26" end2="28" changelist="8d8d2ff2-3390-41df-a9e6-151c654a289b" />
+        <range start1="31" end1="33" start2="32" end2="34" changelist="8d8d2ff2-3390-41df-a9e6-151c654a289b" />
+        <range start1="39" end1="40" start2="40" end2="43" changelist="8d8d2ff2-3390-41df-a9e6-151c654a289b" />
+        <range start1="42" end1="42" start2="45" end2="47" changelist="b3a70215-5924-4181-8bf7-fe370d18c886" />
+        <range start1="70" end1="70" start2="75" end2="76" changelist="8d8d2ff2-3390-41df-a9e6-151c654a289b" />
+        <range start1="73" end1="74" start2="79" end2="80" changelist="8d8d2ff2-3390-41df-a9e6-151c654a289b" />
+        <range start1="94" end1="94" start2="100" end2="104" changelist="b3a70215-5924-4181-8bf7-fe370d18c886" />
+        <range start1="95" end1="96" start2="105" end2="107" changelist="8d8d2ff2-3390-41df-a9e6-151c654a289b" />
+        <range start1="97" end1="98" start2="108" end2="113" changelist="8d8d2ff2-3390-41df-a9e6-151c654a289b" />
+        <range start1="99" end1="101" start2="114" end2="119" changelist="8d8d2ff2-3390-41df-a9e6-151c654a289b" />
+      </ranges>
+    </file>
   </component>
   <component name="ProjectId" id="21Wug9cMdSeSxqNNW9D33rk59MV" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -121,7 +182,7 @@
       <workItem from="1638072036660" duration="75000" />
       <workItem from="1638072400803" duration="22038000" />
       <workItem from="1638206972660" duration="4000" />
-      <workItem from="1638207506850" duration="7000" />
+      <workItem from="1638207506850" duration="7110000" />
     </task>
     <servers />
   </component>

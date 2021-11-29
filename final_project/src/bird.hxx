@@ -126,6 +126,8 @@ struct Bird
 
     bool hit_pipe(std::vector<Block>& bricks) const;
 
+    bool hit_powerup(std::vector<Block>& powerups) const;
+
 
     //
     /// MEMBER VARIABLES
