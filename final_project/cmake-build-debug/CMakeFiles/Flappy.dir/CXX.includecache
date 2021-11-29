@@ -273,40 +273,8 @@ bird.hxx
 /Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/src/bird.hxx
 ge211.hxx
 -
-
-/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/src/controller.cxx
-controller.hxx
-/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/src/controller.hxx
-
-/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/src/controller.hxx
-model.hxx
-/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/src/model.hxx
-view.hxx
-/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/src/view.hxx
-bird.hxx
-/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/src/bird.hxx
-ge211.hxx
--
-
-/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/src/main.cxx
-controller.hxx
-/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/src/controller.hxx
-
-/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/src/model.hxx
-bird.hxx
-/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/src/bird.hxx
-vector
--
-
-/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/src/view.cxx
-view.hxx
-/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/src/view.hxx
 string
 -
-
-/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/src/view.hxx
-model.hxx
-/Users/vatsalbhargava/Documents/CS 211/FlappyBirdFinal/final_project/src/model.hxx
 
 /usr/local/include/SDL2/SDL_blendmode.h
 begin_code.h

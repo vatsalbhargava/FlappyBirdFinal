@@ -13,7 +13,7 @@
 ///       float x;   // pixel distance from left edge of window
 ///       float y;   // pixel distance from top edge of window
 ///   };
-using Position = ge211::Posn<float>;
+using Posn = ge211::Posn<float>;
 
 
 /// We will represent velocities as GE211 `Dims<float>`s, which we alias
@@ -87,7 +87,7 @@ struct Bird
     /// "bounding box", meaning the smallest rectangle in which is can
     /// be enclosed. This is useful to the UI because sprites are
     /// positioned based on their top-left corners.
-    Position bird_top_left() const;
+    ge211::Posn<int> bird_top_left() const;
 
     /// Returns the state of the ball after `dt` seconds have passed,
     /// were it to move freely (without obstacles). Thus, the result is
@@ -135,7 +135,7 @@ struct Bird
     int radius;
 
     /// The position of the center of the ball.
-    Position center;
+    Posn center;
 
     /// The velocity of the ball in pixels per tick.
     Velocity velocity;
@@ -146,4 +146,6 @@ struct Bird
 
     /// Says if the bird is jumping or falling
     bool jumping;
+
+    int gravity;
 };

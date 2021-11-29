@@ -7,19 +7,21 @@
 // It won't compile without this, so you get it for free.
 
 Bird::Bird()
-        : radius(50),
-          center(Position {400,300}),
-          velocity({0,0}),
+        : radius(10),
+          center(Posn {400,300}),
+          velocity({0,225}),
           live("start"),
-          jumping(false)
+          jumping(false),
+          gravity(225)
+
 { }
 
-Position
+ge211::Posn<int>
 Bird::bird_top_left() const
 {
     // TODO: replace this with your code:
-    float x_coordinate = center.x - radius;
-    float y_coordinate = center.y - radius;
+    int x_coordinate = center.x - radius;
+    int y_coordinate = center.y - radius;
 
     return {x_coordinate,y_coordinate};
 }
@@ -28,7 +30,6 @@ bool
 Bird::hits_bottom() const
 {
     // TODO: replace this with your code:
-
     return (center.y + radius > 600) ;
 }
 
@@ -51,7 +52,7 @@ Bird
 Bird::next(double dt) const
 {
     Bird result(*this);
-    result.center.x += dt*result.velocity.width;
+
     // TODO: your code here
     // if (!jumping){
     //     result.center.y -= 1;
@@ -60,7 +61,9 @@ Bird::next(double dt) const
     //     result.center.y += 50;
     //     return result;
     // }
-    result.center.y -= 5;
+
+    float dist_y = velocity.height * dt;
+    result.center.y += dist_y;
     return result;
 
 }
@@ -131,8 +134,8 @@ Bird::hit_pipe(std::vector<Block>& bricks) const
     // TODO: replace this with your code:
     for (Block& curr: bricks){
         if (hits_block(curr)){
-            curr = bricks.back();
-            bricks.pop_back();
+            // curr = bricks.back();
+            // bricks.pop_back();
             return true;
         }
     }

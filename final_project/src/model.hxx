@@ -21,7 +21,7 @@ public:
     // Set the score to 0
     void start_game();
 
-    std::string bird_alive();
+    std::string bird_alive() const;
     // When the game is started the bird is moved to the original position
     void bird_to(int y);
 
@@ -36,13 +36,21 @@ public:
     //If the ball is still live then actually update the jaunt
     void on_frame(double dt);
 
+
+    void jump();
     ///MEMBER VARIABLES:
 
     Bird bird;
 
+    int time_passed;
+
     std::vector<Block> pipes;
 
     int score;
+
+    std::vector<Block> powerups;
+
+private:
 
     float duration_of_jump;
 };

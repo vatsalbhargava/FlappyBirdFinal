@@ -15,12 +15,12 @@ public:
 protected:
     void draw(ge211::Sprite_set& set) override;
     void on_key(ge211::Key) override;
-    void on_mouse_down(ge211::Mouse_button) override;
+    void on_mouse_down(ge211::Mouse_button, ge211::Posn<int>) override;
     void on_frame(double dt) override;
 
 
 private:
-    Model model_;
+    Model& model_;
     View view_;
     Bird bird;
 };
