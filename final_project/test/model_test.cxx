@@ -15,7 +15,7 @@ TEST_CASE("Bird Builds")
 // These tests should demonstrate at least six of the functional
 // requirements.
 //
-TEST_CASE("1. Jump Works?")
+TEST_CASE("1.Jump Works?")
 {
     Model m;
     CHECK(m.bird.live == "start");
