@@ -18,7 +18,8 @@ View::View(Model const& model)
         game_over_sprite("Game Over", {"sans.ttf", 40}),
         over_inst_sprite("Press the spacebar or mouse to start over",
                          {"sans.ttf",20}),
-        welcome_sprite("Flappy Bird", {"sans.ttf", 40}),
+          quit_sprite("Or Press 'Q' to Quit", {"sans.ttf",20}),
+          welcome_sprite("Flappy Bird", {"sans.ttf", 40}),
         instructions_sprite("Press the spacebar or mouse to start and to jump",
                             {"sans.ttf", 20})
 { }
@@ -44,6 +45,7 @@ View::show_instructions(Sprite_set& sprites) {
     } else if (model_.bird_alive() == "dead") {
         sprites.add_sprite(game_over_sprite, {310,200}, 2);
         sprites.add_sprite(over_inst_sprite, {225,400}, 2);
+        sprites.add_sprite(quit_sprite, {325, 450}, 2);
     }
 }
 

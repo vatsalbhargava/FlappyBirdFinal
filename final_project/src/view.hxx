@@ -22,6 +22,7 @@ private:
     // end game sprites
     ge211::Text_sprite const game_over_sprite;
     ge211::Text_sprite const over_inst_sprite;
+    ge211::Text_sprite const quit_sprite;
     // start screen sprites
     ge211::Text_sprite const welcome_sprite;
     ge211::Text_sprite const instructions_sprite;

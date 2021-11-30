@@ -3,7 +3,10 @@
 
 TEST_CASE("example test (TODO: replace this)")
 {
-    CHECK(1 + 1 == 2);
+    Model m();
+
+    CHECK(m.bird.live == "start");
+
 }
 
 //

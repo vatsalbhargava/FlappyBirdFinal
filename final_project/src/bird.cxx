@@ -151,8 +151,6 @@ Bird::hit_pipe(std::vector<Block>& bricks) const
     // TODO: replace this with your code:
     for (Block& curr: bricks){
         if (hits_block(curr)){
-            // curr = bricks.back();
-            // bricks.pop_back();
             return true;
         }
     }
@@ -164,6 +162,7 @@ Bird::hit_powerup(std::vector<Block>& powerups) const
 {
     for (Block& curr: powerups) {
         if (hits_block(curr)) {
+            curr = powerups.back();
             powerups.pop_back();
             return true;
         }

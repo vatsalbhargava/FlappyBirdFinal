@@ -10,7 +10,9 @@ Model::Model()
         score(0),
         powerups(),
         dist_traveled(0),
+        pu_score(0),
         duration_of_jump(0.0)
+
 { }
 
 //Move onto member functions!!!
@@ -20,6 +22,7 @@ void
 Model::start_game()
 {
     std::vector<Block> pipes_temp;
+    std::vector<Block> pu_temp;
 
     for (size_t i = 0; i < 1000; i++){
         Block curr;
@@ -36,11 +39,25 @@ Model::start_game()
         curr2.height = 600 - randval;
         pipes_temp.push_back(curr);
         pipes_temp.push_back(curr2);
+        int randpu = rand() % 6;
+
+        if (randpu < 2){
+            Block powerup;
+            powerup.width = 40;
+            powerup.height = 40;
+            powerup.x = 655 + (350*i);
+            powerup.y = randval - 100;
+            pu_temp.push_back(powerup);
+        }
     }
+
+
     pipes = pipes_temp;
+    powerups = pu_temp;
     time_passed = 0;
     score = 0;
     dist_traveled = 0;
+    pu_score = 0;
     bird.live = "live";
 }
 
@@ -100,21 +117,25 @@ Model::on_frame(double dt)
         }
 
         if (temp_bird.hit_powerup(powerups)) {
-            score += 2;
+            pu_score += 1;
         }
 
         level = time_passed/300;
         int tempsc = 0;
-        for (size_t i = 0; i < 1000; i++){
+        for (size_t i = 0; i < pipes.size(); i++){
             pipes[i].x -= (5 + level);
 
             if(pipes[i].x < 325){
                 tempsc += 1;
             }
         }
-        score = tempsc/2;
+        score = tempsc/2 + pu_score;
+
         if (bird.live == "live"){
             bird = bird.next(dt);
+        }
+        for (size_t i = 0; i < powerups.size(); i++) {
+            powerups[i].x -= (5 + level);
         }
 
     }
