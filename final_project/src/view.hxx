@@ -11,11 +11,16 @@ public:
 
 private:
     Model const& model_;
-
+    // image sprites
+    ge211::Image_sprite const flappy_sprite;
+    ge211::Image_sprite const background_sprite;
+    ge211::Image_sprite const pipe_image;
+    ge211::Image_sprite const coin_sprite;
     // sprites for game
     ge211::Circle_sprite const bird_sprite;
     ge211::Rectangle_sprite const pipe_sprite;
     ge211::Circle_sprite const powerup_sprite;
+
     // score sprite
     ge211::Text_sprite score_sprite;
 

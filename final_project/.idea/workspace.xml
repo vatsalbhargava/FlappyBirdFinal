@@ -21,25 +21,17 @@
   <component name="ChangeListManager">
     <list default="true" id="8d8d2ff2-3390-41df-a9e6-151c654a289b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Flappy.dir/src/bird.cxx.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Flappy.dir/src/bird.cxx.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Flappy.dir/src/controller.cxx.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Flappy.dir/src/controller.cxx.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Flappy.dir/src/main.cxx.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Flappy.dir/src/main.cxx.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Flappy.dir/src/model.cxx.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Flappy.dir/src/model.cxx.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Flappy.dir/src/view.cxx.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Flappy.dir/src/view.cxx.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/model_test.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/model_test.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/model_test.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/model_test.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/model_test.dir/src/model.cxx.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/model_test.dir/src/model.cxx.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Flappy" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Flappy" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/model_test" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/model_test" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/bird.cxx" beforeDir="false" afterPath="$PROJECT_DIR$/src/bird.cxx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model.cxx" beforeDir="false" afterPath="$PROJECT_DIR$/src/model.cxx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model.hxx" beforeDir="false" afterPath="$PROJECT_DIR$/src/model.hxx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/model_test.cxx" beforeDir="false" afterPath="$PROJECT_DIR$/test/model_test.cxx" afterDir="false" />
     </list>
-    <list id="b3a70215-5924-4181-8bf7-fe370d18c886" name="Changes by benmagevney" comment="">
-      <change beforePath="$PROJECT_DIR$/src/bird.cxx" beforeDir="false" afterPath="$PROJECT_DIR$/src/bird.cxx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model.cxx" beforeDir="false" afterPath="$PROJECT_DIR$/src/model.cxx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view.cxx" beforeDir="false" afterPath="$PROJECT_DIR$/src/view.cxx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/view.hxx" beforeDir="false" afterPath="$PROJECT_DIR$/src/view.hxx" afterDir="false" />
-    </list>
+    <list id="b683fb1f-c089-4034-ac8b-dd9cb56828cf" name="Changes by benmagevney" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,27 +43,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
-  </component>
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/src/bird.cxx">
-      <ranges>
-        <range start1="153" end1="155" start2="153" end2="153" changelist="b3a70215-5924-4181-8bf7-fe370d18c886" />
-        <range start1="166" end1="166" start2="164" end2="165" changelist="8d8d2ff2-3390-41df-a9e6-151c654a289b" />
-      </ranges>
-    </file>
-    <file path="$PROJECT_DIR$/src/model.cxx">
-      <ranges>
-        <range start1="12" end1="12" start2="12" end2="13" changelist="8d8d2ff2-3390-41df-a9e6-151c654a289b" />
-        <range start1="13" end1="13" start2="14" end2="15" changelist="b3a70215-5924-4181-8bf7-fe370d18c886" />
-        <range start1="38" end1="38" start2="40" end2="50" changelist="8d8d2ff2-3390-41df-a9e6-151c654a289b" />
-        <range start1="39" end1="39" start2="51" end2="53" changelist="8d8d2ff2-3390-41df-a9e6-151c654a289b" />
-        <range start1="43" end1="43" start2="57" end2="58" changelist="8d8d2ff2-3390-41df-a9e6-151c654a289b" />
-        <range start1="102" end1="103" start2="117" end2="118" changelist="b3a70215-5924-4181-8bf7-fe370d18c886" />
-        <range start1="107" end1="108" start2="122" end2="123" changelist="b3a70215-5924-4181-8bf7-fe370d18c886" />
-        <range start1="114" end1="115" start2="129" end2="131" changelist="8d8d2ff2-3390-41df-a9e6-151c654a289b" />
-        <range start1="118" end1="119" start2="134" end2="138" changelist="8d8d2ff2-3390-41df-a9e6-151c654a289b" />
-      </ranges>
-    </file>
   </component>
   <component name="ProjectId" id="21Wug9cMdSeSxqNNW9D33rk59MV" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -98,7 +69,31 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunManager" selected="CMake Application.Flappy">
-    <configuration name="example test (TODO: replace this)" type="CMakeCatchTestRunConfigurationType" factoryName="Catch Test" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Flappy" TARGET_NAME="model_test" RUN_TARGET_PROJECT_NAME="Flappy" RUN_TARGET_NAME="model_test" TEST_METHOD="example test (TODO: replace this)" TEST_MODE="SUITE_TEST">
+    <configuration name="2. Gravity Works?" type="CMakeCatchTestRunConfigurationType" factoryName="Catch Test" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Flappy" TARGET_NAME="model_test" RUN_TARGET_PROJECT_NAME="Flappy" RUN_TARGET_NAME="model_test" TEST_METHOD="2. Gravity Works?" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="3.Hit Pipes, Top, and Bottom" type="CMakeCatchTestRunConfigurationType" factoryName="Catch Test" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Flappy" TARGET_NAME="model_test" RUN_TARGET_PROJECT_NAME="Flappy" RUN_TARGET_NAME="model_test" TEST_METHOD="3.Hit Pipes, Top, and Bottom" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="4. Score Resetting when Game Restarts" type="CMakeCatchTestRunConfigurationType" factoryName="Catch Test" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Flappy" TARGET_NAME="model_test" RUN_TARGET_PROJECT_NAME="Flappy" RUN_TARGET_NAME="model_test" TEST_METHOD="4. Score Resetting when Game Restarts" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="5. Point Gaining" type="CMakeCatchTestRunConfigurationType" factoryName="Catch Test" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Flappy" TARGET_NAME="model_test" RUN_TARGET_PROJECT_NAME="Flappy" RUN_TARGET_NAME="model_test" TEST_METHOD="5. Point Gaining" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="6. Game Speeds Up" type="CMakeCatchTestRunConfigurationType" factoryName="Catch Test" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Flappy" TARGET_NAME="model_test" RUN_TARGET_PROJECT_NAME="Flappy" RUN_TARGET_NAME="model_test" TEST_METHOD="6. Game Speeds Up" TEST_MODE="SUITE_TEST">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
         <option name="BeforeTestRunTask" enabled="true" />
@@ -148,11 +143,19 @@
       <item itemvalue="CMake Application.fireworks" />
       <item itemvalue="CMake Application.ge211" />
       <item itemvalue="CTest Application.All CTest" />
-      <item itemvalue="Catch.example test (TODO: replace this)" />
+      <item itemvalue="Catch.2. Gravity Works?" />
+      <item itemvalue="Catch.3.Hit Pipes, Top, and Bottom" />
+      <item itemvalue="Catch.4. Score Resetting when Game Restarts" />
+      <item itemvalue="Catch.5. Point Gaining" />
+      <item itemvalue="Catch.6. Game Speeds Up" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Catch.example test (TODO: replace this)" />
+        <item itemvalue="Catch.6. Game Speeds Up" />
+        <item itemvalue="Catch.5. Point Gaining" />
+        <item itemvalue="Catch.3.Hit Pipes, Top, and Bottom" />
+        <item itemvalue="Catch.4. Score Resetting when Game Restarts" />
+        <item itemvalue="Catch.2. Gravity Works?" />
       </list>
     </recent_temporary>
   </component>
@@ -168,7 +171,7 @@
       <workItem from="1638072036660" duration="75000" />
       <workItem from="1638072400803" duration="22038000" />
       <workItem from="1638206972660" duration="4000" />
-      <workItem from="1638207506850" duration="10036000" />
+      <workItem from="1638207506850" duration="16516000" />
     </task>
     <servers />
   </component>

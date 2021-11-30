@@ -5,7 +5,7 @@
 Model::Model()
         :bird(Bird()),
         time_passed(0),
-        level(1),
+        level(0),
         pipes(),
         score(0),
         powerups(),
@@ -120,7 +120,7 @@ Model::on_frame(double dt)
             pu_score += 1;
         }
 
-        level = time_passed/300;
+        level = (score - pu_score)/5;
         int tempsc = 0;
         for (size_t i = 0; i < pipes.size(); i++){
             pipes[i].x -= (5 + level);

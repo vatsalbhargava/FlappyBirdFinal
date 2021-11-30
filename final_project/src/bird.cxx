@@ -2,7 +2,7 @@
 #include "bird.hxx"
 
 // setting value of gravity
-float bird_gravity = 250;
+float bird_gravity = 300;
 
 Bird::Bird()
         : radius(10),
